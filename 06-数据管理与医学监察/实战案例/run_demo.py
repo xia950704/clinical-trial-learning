@@ -11,6 +11,10 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
+# 添加医学插件目录到路径
+plugin_dir = Path(__file__).parent.parent / "pyCoreGage-医学插件"
+sys.path.insert(0, str(plugin_dir))
+
 from medcage import MedCage
 
 def main():
@@ -26,7 +30,7 @@ def main():
         "rule_registry": "rule_registry_medical.json",
         "trial_checks": "rules/trial/",
         "study_checks": "rules/study/",
-        "inputs": "data/",
+        "inputs": ".",  # 当前目录（实战案例/）
         "reports": "outputs/reports/",
         "feedback": "outputs/feedback/",
         "project_name": "clinical_trial_demo",
