@@ -1,0 +1,3865 @@
+{
+  "total_findings": 197,
+  "by_source": {
+    "lab": 169,
+    "lab_trend": 5,
+    "lab_hepatic": 2,
+    "lab_outlier": 21
+  },
+  "by_severity": {
+    "medium": 174,
+    "critical": 2,
+    "low": 21
+  },
+  "findings": [
+    {
+      "finding_id": "db13c3ba-823e-4eb3-8452-711f3b6ff1cf",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 20.55 → 64.07 (211.8% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 20.55,
+        "curr_value": 64.07,
+        "change_pct": 211.78
+      },
+      "timestamp": "2026-06-25T17:13:20.321739",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ccf66556-8ec2-4eeb-bc8d-f71348a8f137",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 64.07 → 156.15 (143.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 64.07,
+        "curr_value": 156.15,
+        "change_pct": 143.72
+      },
+      "timestamp": "2026-06-25T17:13:20.321755",
+      "status": "failed"
+    },
+    {
+      "finding_id": "99733959-2ec8-4195-ad82-aeb8885e0964",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 10.74 → 83.44 (676.9% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 10.74,
+        "curr_value": 83.44,
+        "change_pct": 676.91
+      },
+      "timestamp": "2026-06-25T17:13:20.321763",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d0b4e0b9-955c-417c-a16f-99ca331cf0da",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 100.29 → 157.58 (57.1% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 100.29,
+        "curr_value": 157.58,
+        "change_pct": 57.12
+      },
+      "timestamp": "2026-06-25T17:13:20.321770",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ca47846d-3b00-442b-9c3d-0280da7eb79d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 7.19 → 13.09 (82.1% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 7.19,
+        "curr_value": 13.09,
+        "change_pct": 82.06
+      },
+      "timestamp": "2026-06-25T17:13:20.321777",
+      "status": "failed"
+    },
+    {
+      "finding_id": "34c0699c-9deb-4be1-a9c3-7ec05716f1b7",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 13.09 → 57.37 (338.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 13.09,
+        "curr_value": 57.37,
+        "change_pct": 338.27
+      },
+      "timestamp": "2026-06-25T17:13:20.321783",
+      "status": "failed"
+    },
+    {
+      "finding_id": "f0aefc6e-0fa0-44fa-ae21-07cb698ff6a5",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 189.77 → 289.63 (52.6% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 189.77,
+        "curr_value": 289.63,
+        "change_pct": 52.62
+      },
+      "timestamp": "2026-06-25T17:13:20.321794",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c0e978de-b370-4d70-877d-ba124f9229d6",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 25.89 → 61.48 (137.5% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 25.89,
+        "curr_value": 61.48,
+        "change_pct": 137.47
+      },
+      "timestamp": "2026-06-25T17:13:20.321806",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d2a5e8f3-be7a-4200-83be-18911c075c27",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 61.48 → 145.86 (137.2% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 61.48,
+        "curr_value": 145.86,
+        "change_pct": 137.25
+      },
+      "timestamp": "2026-06-25T17:13:20.321811",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8fffb109-e050-4bc8-b1c0-51705b742eb9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 11.15 → 19.12 (71.5% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 11.15,
+        "curr_value": 19.12,
+        "change_pct": 71.48
+      },
+      "timestamp": "2026-06-25T17:13:20.321818",
+      "status": "failed"
+    },
+    {
+      "finding_id": "35ac5e2f-c703-4eb2-9751-f257b4c5d212",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 19.12 → 90.78 (374.8% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 19.12,
+        "curr_value": 90.78,
+        "change_pct": 374.79
+      },
+      "timestamp": "2026-06-25T17:13:20.321823",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9efd8121-f741-47ab-b378-fb910872a510",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 90.78 → 139.84 (54.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 90.78,
+        "curr_value": 139.84,
+        "change_pct": 54.04
+      },
+      "timestamp": "2026-06-25T17:13:20.321829",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8a5d6a1f-4892-4c93-b432-4fdf78a5bcfa",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 6.63 → 38.72 (484.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 6.63,
+        "curr_value": 38.72,
+        "change_pct": 484.01
+      },
+      "timestamp": "2026-06-25T17:13:20.321836",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5e52abd5-7838-49aa-a643-f196428fb017",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 196.56 → 337.33 (71.6% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 196.56,
+        "curr_value": 337.33,
+        "change_pct": 71.62
+      },
+      "timestamp": "2026-06-25T17:13:20.321847",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5a6a6932-3f42-4fff-8010-4c569fae6280",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 12.27 → 104.8 (754.1% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 12.27,
+        "curr_value": 104.8,
+        "change_pct": 754.12
+      },
+      "timestamp": "2026-06-25T17:13:20.321859",
+      "status": "failed"
+    },
+    {
+      "finding_id": "844c0c16-2062-495a-9f03-ac93df035f2a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 11.18 → 23.23 (107.8% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 11.18,
+        "curr_value": 23.23,
+        "change_pct": 107.78
+      },
+      "timestamp": "2026-06-25T17:13:20.321867",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8c76fccb-705d-44aa-a963-578584acdd7a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 6.43 → 17.62 (174.0% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 6.43,
+        "curr_value": 17.62,
+        "change_pct": 174.03
+      },
+      "timestamp": "2026-06-25T17:13:20.321874",
+      "status": "failed"
+    },
+    {
+      "finding_id": "f3beca63-38a9-4f5b-8719-f7bf404f6196",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly improved: 17.62 → 6.45 (63.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 17.62,
+        "curr_value": 6.45,
+        "change_pct": 63.39
+      },
+      "timestamp": "2026-06-25T17:13:20.321880",
+      "status": "failed"
+    },
+    {
+      "finding_id": "37250fe1-3acb-4e45-af3d-cb1d5c1a078a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 6.45 → 16.86 (161.4% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 6.45,
+        "curr_value": 16.86,
+        "change_pct": 161.4
+      },
+      "timestamp": "2026-06-25T17:13:20.321885",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9fca67ac-2498-4b6c-94d5-6e2cf95ab7c1",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 53.18 → 84.09 (58.1% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 53.18,
+        "curr_value": 84.09,
+        "change_pct": 58.12
+      },
+      "timestamp": "2026-06-25T17:13:20.321898",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b51b3c5b-6582-4b38-a566-81953d2aa63f",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 31.97 → 11.73 (63.3% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 31.97,
+        "curr_value": 11.73,
+        "change_pct": 63.31
+      },
+      "timestamp": "2026-06-25T17:13:20.321907",
+      "status": "failed"
+    },
+    {
+      "finding_id": "17394135-9b3b-4220-8f1d-21a4cdfb1203",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 11.73 → 20.58 (75.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 11.73,
+        "curr_value": 20.58,
+        "change_pct": 75.45
+      },
+      "timestamp": "2026-06-25T17:13:20.321912",
+      "status": "failed"
+    },
+    {
+      "finding_id": "1c065409-5841-4020-9cdc-f268b3145da8",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 15.29 → 22.94 (50.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 15.29,
+        "curr_value": 22.94,
+        "change_pct": 50.03
+      },
+      "timestamp": "2026-06-25T17:13:20.321920",
+      "status": "failed"
+    },
+    {
+      "finding_id": "64a88e03-8caa-4737-91a7-096b5a800938",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 9.0 → 14.96 (66.2% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 9.0,
+        "curr_value": 14.96,
+        "change_pct": 66.22
+      },
+      "timestamp": "2026-06-25T17:13:20.321926",
+      "status": "failed"
+    },
+    {
+      "finding_id": "0bc0a172-cf11-4cac-91ce-80f42db195a6",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 47.7 → 83.8 (75.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 47.7,
+        "curr_value": 83.8,
+        "change_pct": 75.68
+      },
+      "timestamp": "2026-06-25T17:13:20.321933",
+      "status": "failed"
+    },
+    {
+      "finding_id": "3d08c355-4e62-449b-883b-c2cde0e05883",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 214.83 → 339.39 (58.0% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 214.83,
+        "curr_value": 339.39,
+        "change_pct": 57.98
+      },
+      "timestamp": "2026-06-25T17:13:20.321941",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4a90c12d-b7ee-4191-9489-c49b8eaa2542",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 63.25 → 99.76 (57.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 63.25,
+        "curr_value": 99.76,
+        "change_pct": 57.72
+      },
+      "timestamp": "2026-06-25T17:13:20.321949",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2327a06e-61a4-4420-b29b-396b5b360344",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 12.42 → 20.07 (61.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 12.42,
+        "curr_value": 20.07,
+        "change_pct": 61.59
+      },
+      "timestamp": "2026-06-25T17:13:20.321958",
+      "status": "failed"
+    },
+    {
+      "finding_id": "98e55e25-b45c-44c6-95d6-b77f90250f51",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 13.31 → 20.78 (56.1% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 13.31,
+        "curr_value": 20.78,
+        "change_pct": 56.12
+      },
+      "timestamp": "2026-06-25T17:13:20.321964",
+      "status": "failed"
+    },
+    {
+      "finding_id": "79910e73-5dce-4f05-8d1b-90e86f242855",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 18.48 → 33.08 (79.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 18.48,
+        "curr_value": 33.08,
+        "change_pct": 79.0
+      },
+      "timestamp": "2026-06-25T17:13:20.321970",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b0b31c97-dfc9-4d80-aec4-3411de78d1c9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 7.98 → 17.16 (115.0% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 7.98,
+        "curr_value": 17.16,
+        "change_pct": 115.04
+      },
+      "timestamp": "2026-06-25T17:13:20.321976",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a58a25b2-0f6a-4425-94f6-a3a8b93e9ecc",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 10.51 → 16.2 (54.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 10.51,
+        "curr_value": 16.2,
+        "change_pct": 54.14
+      },
+      "timestamp": "2026-06-25T17:13:20.321981",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a4f8c2c1-c893-40ec-a375-952b9195f785",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 54.92 → 91.68 (66.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 54.92,
+        "curr_value": 91.68,
+        "change_pct": 66.93
+      },
+      "timestamp": "2026-06-25T17:13:20.321989",
+      "status": "failed"
+    },
+    {
+      "finding_id": "72e85c69-2774-4110-9c51-b8bbe0e975a5",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 164.17 → 306.92 (87.0% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 164.17,
+        "curr_value": 306.92,
+        "change_pct": 86.95
+      },
+      "timestamp": "2026-06-25T17:13:20.321996",
+      "status": "failed"
+    },
+    {
+      "finding_id": "cbc24166-e7ce-4583-939a-81a78f819665",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 23.89 → 11.43 (52.2% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 23.89,
+        "curr_value": 11.43,
+        "change_pct": 52.16
+      },
+      "timestamp": "2026-06-25T17:13:20.322007",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e1d28488-f431-4591-86ef-75d61f68c5a1",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 11.43 → 24.88 (117.7% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 11.43,
+        "curr_value": 24.88,
+        "change_pct": 117.67
+      },
+      "timestamp": "2026-06-25T17:13:20.322012",
+      "status": "failed"
+    },
+    {
+      "finding_id": "1e993489-261f-4158-a2df-e8770a5adf05",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 7.01 → 11.54 (64.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 7.01,
+        "curr_value": 11.54,
+        "change_pct": 64.62
+      },
+      "timestamp": "2026-06-25T17:13:20.322021",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5a20ea2b-bb9f-45e0-8bdd-b09c5ae92c05",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 49.98 → 87.04 (74.1% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 49.98,
+        "curr_value": 87.04,
+        "change_pct": 74.15
+      },
+      "timestamp": "2026-06-25T17:13:20.322027",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c4551413-3abd-4cfe-a2d8-45facdb91bab",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 57.8 → 91.16 (57.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 57.8,
+        "curr_value": 91.16,
+        "change_pct": 57.72
+      },
+      "timestamp": "2026-06-25T17:13:20.322032",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b570b4b9-8fdc-488b-a5b7-351e874f1a0e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 4.15 → 6.49 (56.4% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 4.15,
+        "curr_value": 6.49,
+        "change_pct": 56.39
+      },
+      "timestamp": "2026-06-25T17:13:20.322044",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2b249a9d-a2db-4e7b-8321-b4f935e15ce7",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 26.79 → 11.83 (55.8% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 26.79,
+        "curr_value": 11.83,
+        "change_pct": 55.84
+      },
+      "timestamp": "2026-06-25T17:13:20.322051",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a0ca189f-0da7-43d1-8241-8cff7fd58e26",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 11.83 → 30.84 (160.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 11.83,
+        "curr_value": 30.84,
+        "change_pct": 160.69
+      },
+      "timestamp": "2026-06-25T17:13:20.322056",
+      "status": "failed"
+    },
+    {
+      "finding_id": "19eaf843-05b9-4510-a083-0a1d9f75a0cd",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 15.33 → 27.59 (80.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 15.33,
+        "curr_value": 27.59,
+        "change_pct": 79.97
+      },
+      "timestamp": "2026-06-25T17:13:20.322063",
+      "status": "failed"
+    },
+    {
+      "finding_id": "3c561c2c-5c08-4347-8c18-df945157d531",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 8.45 → 12.95 (53.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 8.45,
+        "curr_value": 12.95,
+        "change_pct": 53.25
+      },
+      "timestamp": "2026-06-25T17:13:20.322069",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4b7b95c7-de52-49cb-9c3c-6e6983c3db1a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly improved: 99.23 → 46.93 (52.7% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 99.23,
+        "curr_value": 46.93,
+        "change_pct": 52.71
+      },
+      "timestamp": "2026-06-25T17:13:20.322078",
+      "status": "failed"
+    },
+    {
+      "finding_id": "7cee27c1-45c9-4685-925c-843e6388dc09",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly improved: 325.85 → 151.56 (53.5% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 325.85,
+        "curr_value": 151.56,
+        "change_pct": 53.49
+      },
+      "timestamp": "2026-06-25T17:13:20.322086",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e2787aca-b3b2-4f4c-8c1e-6606e6abc492",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 151.56 → 260.64 (72.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 151.56,
+        "curr_value": 260.64,
+        "change_pct": 71.97
+      },
+      "timestamp": "2026-06-25T17:13:20.322092",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d6c8ebf2-5e87-4d1a-8ca0-d5bf58d8e243",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 61.93 → 99.92 (61.3% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 61.93,
+        "curr_value": 99.92,
+        "change_pct": 61.34
+      },
+      "timestamp": "2026-06-25T17:13:20.322098",
+      "status": "failed"
+    },
+    {
+      "finding_id": "48495d84-96bc-471f-842e-e588b2e6e1a4",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly improved: 13.25 → 5.05 (61.9% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 13.25,
+        "curr_value": 5.05,
+        "change_pct": 61.89
+      },
+      "timestamp": "2026-06-25T17:13:20.322110",
+      "status": "failed"
+    },
+    {
+      "finding_id": "623fefb0-a2a5-4407-9c7c-e43154feb10b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 5.98 → 9.01 (50.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.98,
+        "curr_value": 9.01,
+        "change_pct": 50.67
+      },
+      "timestamp": "2026-06-25T17:13:20.322116",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e240fe5b-d9f1-4b1d-97aa-8a01310c09f9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 9.01 → 15.14 (68.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 9.01,
+        "curr_value": 15.14,
+        "change_pct": 68.04
+      },
+      "timestamp": "2026-06-25T17:13:20.322121",
+      "status": "failed"
+    },
+    {
+      "finding_id": "915e4b7c-a230-42b2-8089-b088421a0260",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 55.84 → 86.27 (54.5% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 55.84,
+        "curr_value": 86.27,
+        "change_pct": 54.49
+      },
+      "timestamp": "2026-06-25T17:13:20.322127",
+      "status": "failed"
+    },
+    {
+      "finding_id": "bb87c38b-3e0d-4b6d-a54a-0630fe1ffe79",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 18.21 → 33.48 (83.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 18.21,
+        "curr_value": 33.48,
+        "change_pct": 83.86
+      },
+      "timestamp": "2026-06-25T17:13:20.322142",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4c220f78-d1b2-446f-b235-2abd11e222a7",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly improved: 31.61 → 12.88 (59.3% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 31.61,
+        "curr_value": 12.88,
+        "change_pct": 59.25
+      },
+      "timestamp": "2026-06-25T17:13:20.322149",
+      "status": "failed"
+    },
+    {
+      "finding_id": "17cab32b-ce06-4a64-951b-9ae9c5343af2",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 10.98 → 17.57 (60.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 10.98,
+        "curr_value": 17.57,
+        "change_pct": 60.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322155",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5f869192-a5d2-4017-a5e6-eec9463ef32e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 51.18 → 99.06 (93.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 51.18,
+        "curr_value": 99.06,
+        "change_pct": 93.55
+      },
+      "timestamp": "2026-06-25T17:13:20.322167",
+      "status": "failed"
+    },
+    {
+      "finding_id": "6103b821-3bdf-4b11-a9cd-b7710724b97e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 28.21 → 10.04 (64.4% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 28.21,
+        "curr_value": 10.04,
+        "change_pct": 64.41
+      },
+      "timestamp": "2026-06-25T17:13:20.322175",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a992272b-b496-498a-8899-236d3386f7f2",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 10.04 → 26.61 (165.0% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 10.04,
+        "curr_value": 26.61,
+        "change_pct": 165.04
+      },
+      "timestamp": "2026-06-25T17:13:20.322181",
+      "status": "failed"
+    },
+    {
+      "finding_id": "02b85819-b44b-4d55-8d52-2b8ecbf5ca03",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 17.84 → 33.14 (85.8% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 17.84,
+        "curr_value": 33.14,
+        "change_pct": 85.76
+      },
+      "timestamp": "2026-06-25T17:13:20.322188",
+      "status": "failed"
+    },
+    {
+      "finding_id": "f972e401-fa8a-4f98-b481-553ba53ad9fc",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "HGB",
+      "message": "Lab 'HGB' rapidly worsened: 80.0 → 137.2 (71.5% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 80.0,
+        "curr_value": 137.2,
+        "change_pct": 71.5
+      },
+      "timestamp": "2026-06-25T17:13:20.322200",
+      "status": "failed"
+    },
+    {
+      "finding_id": "6c707013-18b5-4191-80d3-1d5b70af5420",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 16.1 → 33.95 (110.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 16.1,
+        "curr_value": 33.95,
+        "change_pct": 110.87
+      },
+      "timestamp": "2026-06-25T17:13:20.322214",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ef8c8717-63d0-4666-9b98-6df75ac47e86",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 194.93 → 450.0 (130.9% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 194.93,
+        "curr_value": 450.0,
+        "change_pct": 130.85
+      },
+      "timestamp": "2026-06-25T17:13:20.322225",
+      "status": "failed"
+    },
+    {
+      "finding_id": "59ebf9da-f566-4f23-8a54-44471a541f6d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S012",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 162.85 → 289.1 (77.5% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 162.85,
+        "curr_value": 289.1,
+        "change_pct": 77.53
+      },
+      "timestamp": "2026-06-25T17:13:20.322244",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9e5781fa-b286-41fc-af8d-3603665e756d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 10.68 → 29.03 (171.8% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 10.68,
+        "curr_value": 29.03,
+        "change_pct": 171.82
+      },
+      "timestamp": "2026-06-25T17:13:20.322255",
+      "status": "failed"
+    },
+    {
+      "finding_id": "04236ebf-7bec-46df-8104-865f7a38d1df",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 10.15 → 25.08 (147.1% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 10.15,
+        "curr_value": 25.08,
+        "change_pct": 147.09
+      },
+      "timestamp": "2026-06-25T17:13:20.322261",
+      "status": "failed"
+    },
+    {
+      "finding_id": "f7d68849-4fc1-4244-93aa-813fc270fe5b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 14.13 → 26.07 (84.5% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 14.13,
+        "curr_value": 26.07,
+        "change_pct": 84.5
+      },
+      "timestamp": "2026-06-25T17:13:20.322267",
+      "status": "failed"
+    },
+    {
+      "finding_id": "76d2d136-e799-4cd0-b0a7-f986f8d26e3a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 6.76 → 14.78 (118.6% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 6.76,
+        "curr_value": 14.78,
+        "change_pct": 118.64
+      },
+      "timestamp": "2026-06-25T17:13:20.322274",
+      "status": "failed"
+    },
+    {
+      "finding_id": "69e64350-9a16-41cc-a670-a9651778ade9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly improved: 340.69 → 155.8 (54.3% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 340.69,
+        "curr_value": 155.8,
+        "change_pct": 54.27
+      },
+      "timestamp": "2026-06-25T17:13:20.322283",
+      "status": "failed"
+    },
+    {
+      "finding_id": "744fe263-76f2-4be3-b298-004c2460fca1",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 35.0 → 10.51 (70.0% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 35.0,
+        "curr_value": 10.51,
+        "change_pct": 69.97
+      },
+      "timestamp": "2026-06-25T17:13:20.322293",
+      "status": "failed"
+    },
+    {
+      "finding_id": "f79ebdd7-af98-4c0c-be5a-c074cd2e59c8",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 13.81 → 25.18 (82.3% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 13.81,
+        "curr_value": 25.18,
+        "change_pct": 82.33
+      },
+      "timestamp": "2026-06-25T17:13:20.322300",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c1318579-b01f-403f-9faa-8150e5654f90",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly improved: 13.45 → 6.64 (50.6% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 13.45,
+        "curr_value": 6.64,
+        "change_pct": 50.63
+      },
+      "timestamp": "2026-06-25T17:13:20.322307",
+      "status": "failed"
+    },
+    {
+      "finding_id": "61293080-fc69-49f5-a39f-4c76cbeef699",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 6.64 → 14.72 (121.7% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 6.64,
+        "curr_value": 14.72,
+        "change_pct": 121.69
+      },
+      "timestamp": "2026-06-25T17:13:20.322312",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a958a5a9-2fb2-4fcd-a689-362ccc34e1f9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 193.59 → 342.94 (77.1% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 193.59,
+        "curr_value": 342.94,
+        "change_pct": 77.15
+      },
+      "timestamp": "2026-06-25T17:13:20.322322",
+      "status": "failed"
+    },
+    {
+      "finding_id": "aab2a635-1fa2-4608-9f08-7be3c889a1e1",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly improved: 342.94 → 165.2 (51.8% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 342.94,
+        "curr_value": 165.2,
+        "change_pct": 51.83
+      },
+      "timestamp": "2026-06-25T17:13:20.322328",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c19e4448-f35c-4d4c-a41c-95544aacea86",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 165.2 → 346.77 (109.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 165.2,
+        "curr_value": 346.77,
+        "change_pct": 109.91
+      },
+      "timestamp": "2026-06-25T17:13:20.322334",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b533052d-fc00-498f-8a15-98c094972019",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 55.4 → 84.53 (52.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 55.4,
+        "curr_value": 84.53,
+        "change_pct": 52.58
+      },
+      "timestamp": "2026-06-25T17:13:20.322346",
+      "status": "failed"
+    },
+    {
+      "finding_id": "092c6e95-f9e0-4000-8ef3-90a1695c831e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S015",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 32.04 → 15.3 (52.2% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 32.04,
+        "curr_value": 15.3,
+        "change_pct": 52.25
+      },
+      "timestamp": "2026-06-25T17:13:20.322356",
+      "status": "failed"
+    },
+    {
+      "finding_id": "02d9a26e-f1ba-4f98-92bd-9ad64ba8d7ff",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S015",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 19.26 → 30.72 (59.5% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 19.26,
+        "curr_value": 30.72,
+        "change_pct": 59.5
+      },
+      "timestamp": "2026-06-25T17:13:20.322362",
+      "status": "failed"
+    },
+    {
+      "finding_id": "238bf648-4e51-4afa-8e2a-77d1afed617b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S015",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 16.1 → 29.95 (86.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 16.1,
+        "curr_value": 29.95,
+        "change_pct": 86.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322368",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b5e4d8d8-6478-41a0-a738-b05199ce261d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S015",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly improved: 320.34 → 155.74 (51.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 320.34,
+        "curr_value": 155.74,
+        "change_pct": 51.38
+      },
+      "timestamp": "2026-06-25T17:13:20.322380",
+      "status": "failed"
+    },
+    {
+      "finding_id": "38deb9e8-0d86-4346-91ef-7a470fdff19d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 12.33 → 28.65 (132.4% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 12.33,
+        "curr_value": 28.65,
+        "change_pct": 132.36
+      },
+      "timestamp": "2026-06-25T17:13:20.322390",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d4144df4-5645-49de-96fe-06e1dd1b1b9e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 18.27 → 29.05 (59.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 18.27,
+        "curr_value": 29.05,
+        "change_pct": 59.0
+      },
+      "timestamp": "2026-06-25T17:13:20.322397",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4b747672-8c90-4ac9-bc90-76c1d00f4de8",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly improved: 29.05 → 12.51 (56.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 29.05,
+        "curr_value": 12.51,
+        "change_pct": 56.94
+      },
+      "timestamp": "2026-06-25T17:13:20.322403",
+      "status": "failed"
+    },
+    {
+      "finding_id": "fb212699-32f7-43f3-b7fc-e8f3edcdee9a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 174.13 → 294.92 (69.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 174.13,
+        "curr_value": 294.92,
+        "change_pct": 69.37
+      },
+      "timestamp": "2026-06-25T17:13:20.322414",
+      "status": "failed"
+    },
+    {
+      "finding_id": "988850f1-256b-4963-b11c-9e92a84dd299",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 59.63 → 98.83 (65.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 59.63,
+        "curr_value": 98.83,
+        "change_pct": 65.74
+      },
+      "timestamp": "2026-06-25T17:13:20.322421",
+      "status": "failed"
+    },
+    {
+      "finding_id": "fa0798b3-3ffc-4efe-bb3f-02f1cc2c1973",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S017",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 11.85 → 29.11 (145.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 11.85,
+        "curr_value": 29.11,
+        "change_pct": 145.65
+      },
+      "timestamp": "2026-06-25T17:13:20.322429",
+      "status": "failed"
+    },
+    {
+      "finding_id": "bd83365b-72de-45e7-b929-31c84914273a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S017",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 5.7 → 15.28 (168.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.7,
+        "curr_value": 15.28,
+        "change_pct": 168.07
+      },
+      "timestamp": "2026-06-25T17:13:20.322438",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c4d526f9-b90f-459a-bb89-9a41dd4a1f4a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 15.79 → 26.53 (68.0% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 15.79,
+        "curr_value": 26.53,
+        "change_pct": 68.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322454",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a09cc42a-0d0b-4ab0-ad08-2688ca5efb32",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 14.15 → 33.57 (137.2% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 14.15,
+        "curr_value": 33.57,
+        "change_pct": 137.24
+      },
+      "timestamp": "2026-06-25T17:13:20.322460",
+      "status": "failed"
+    },
+    {
+      "finding_id": "afa93e57-7341-40c3-a4c5-b2ac5fe348f1",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 13.93 → 27.67 (98.6% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 13.93,
+        "curr_value": 27.67,
+        "change_pct": 98.64
+      },
+      "timestamp": "2026-06-25T17:13:20.322466",
+      "status": "failed"
+    },
+    {
+      "finding_id": "513a9b29-3fa4-4599-b632-4696e75b6444",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 7.26 → 14.14 (94.8% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 7.26,
+        "curr_value": 14.14,
+        "change_pct": 94.77
+      },
+      "timestamp": "2026-06-25T17:13:20.322472",
+      "status": "failed"
+    },
+    {
+      "finding_id": "478da033-8720-49d8-8f32-4ba575cca132",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 44.5 → 67.24 (51.1% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 44.5,
+        "curr_value": 67.24,
+        "change_pct": 51.1
+      },
+      "timestamp": "2026-06-25T17:13:20.322479",
+      "status": "failed"
+    },
+    {
+      "finding_id": "64016a53-fa56-407c-a2e2-9e615a897270",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 11.01 → 22.29 (102.5% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 11.01,
+        "curr_value": 22.29,
+        "change_pct": 102.45
+      },
+      "timestamp": "2026-06-25T17:13:20.322493",
+      "status": "failed"
+    },
+    {
+      "finding_id": "00093089-f78f-40ee-8902-f2c6afc4e510",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly improved: 28.91 → 12.28 (57.5% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 28.91,
+        "curr_value": 12.28,
+        "change_pct": 57.52
+      },
+      "timestamp": "2026-06-25T17:13:20.322501",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4a1e0713-9afe-4a0d-8a9d-bfc39550746a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "Lab 'AST' rapidly worsened: 12.28 → 33.63 (173.9% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 12.28,
+        "curr_value": 33.63,
+        "change_pct": 173.86
+      },
+      "timestamp": "2026-06-25T17:13:20.322506",
+      "status": "failed"
+    },
+    {
+      "finding_id": "439dd2af-b41a-444c-8764-bedde501be82",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 9.52 → 15.58 (63.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 9.52,
+        "curr_value": 15.58,
+        "change_pct": 63.66
+      },
+      "timestamp": "2026-06-25T17:13:20.322513",
+      "status": "failed"
+    },
+    {
+      "finding_id": "bde747b7-874a-4c6f-934d-33833bdf8d72",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "PLT",
+      "message": "Lab 'PLT' rapidly worsened: 186.3 → 321.55 (72.6% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 186.3,
+        "curr_value": 321.55,
+        "change_pct": 72.6
+      },
+      "timestamp": "2026-06-25T17:13:20.322523",
+      "status": "failed"
+    },
+    {
+      "finding_id": "6f20ea19-cb98-48e4-b6b9-16f1f7c6809a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 28.91 → 13.04 (54.9% change) between 2024-01-01 and 2024-01-15",
+      "details": {
+        "prev_value": 28.91,
+        "curr_value": 13.04,
+        "change_pct": 54.89
+      },
+      "timestamp": "2026-06-25T17:13:20.322533",
+      "status": "failed"
+    },
+    {
+      "finding_id": "441158c2-8d13-41cb-8701-7b33bbf97f5f",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 13.04 → 34.81 (166.9% change) between 2024-01-15 and 2024-01-29",
+      "details": {
+        "prev_value": 13.04,
+        "curr_value": 34.81,
+        "change_pct": 166.95
+      },
+      "timestamp": "2026-06-25T17:13:20.322538",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5e0954d6-63c0-428a-8805-3d12df424218",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly improved: 34.81 → 16.84 (51.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 34.81,
+        "curr_value": 16.84,
+        "change_pct": 51.62
+      },
+      "timestamp": "2026-06-25T17:13:20.322543",
+      "status": "failed"
+    },
+    {
+      "finding_id": "aa4d210c-cd73-4e1d-a67a-85f8d8d48455",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "Lab 'ALT' rapidly worsened: 16.84 → 31.98 (89.9% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 16.84,
+        "curr_value": 31.98,
+        "change_pct": 89.9
+      },
+      "timestamp": "2026-06-25T17:13:20.322550",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e2438f82-fab1-4be7-bd4c-325cf7bdc283",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly worsened: 11.0 → 17.74 (61.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 11.0,
+        "curr_value": 17.74,
+        "change_pct": 61.27
+      },
+      "timestamp": "2026-06-25T17:13:20.322558",
+      "status": "failed"
+    },
+    {
+      "finding_id": "92dd1cf9-27d9-496a-9036-fd4c215aa5aa",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "Lab 'TBIL' rapidly improved: 17.74 → 8.59 (51.6% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 17.74,
+        "curr_value": 8.59,
+        "change_pct": 51.58
+      },
+      "timestamp": "2026-06-25T17:13:20.322564",
+      "status": "failed"
+    },
+    {
+      "finding_id": "edc0041e-f4be-433c-8417-e5b8a1524e13",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "Lab 'ALP' rapidly worsened: 54.62 → 87.4 (60.0% change) between 2024-02-12 and 2024-02-26",
+      "details": {
+        "prev_value": 54.62,
+        "curr_value": 87.4,
+        "change_pct": 60.01
+      },
+      "timestamp": "2026-06-25T17:13:20.322570",
+      "status": "failed"
+    },
+    {
+      "finding_id": "28ccfa7c-9dd3-4b60-ab9f-0ba4f6bd1827",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T000",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 65.0 → 110.0 (69.2% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 65.0,
+        "curr_value": 110.0,
+        "change_pct": 69.23
+      },
+      "timestamp": "2026-06-25T17:13:20.322583",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c60922de-dd27-48f6-9403-64f234f23503",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T000",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.0 → 8.0 (60.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.0,
+        "curr_value": 8.0,
+        "change_pct": 60.0
+      },
+      "timestamp": "2026-06-25T17:13:20.322589",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9eb3baa5-4d3e-4f67-b5e5-382bd54b2ec2",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 67.0 → 115.0 (71.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 67.0,
+        "curr_value": 115.0,
+        "change_pct": 71.64
+      },
+      "timestamp": "2026-06-25T17:13:20.322595",
+      "status": "failed"
+    },
+    {
+      "finding_id": "1d4b0cfb-c80e-4200-b12f-471d761fbde2",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.3 → 8.5 (60.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.3,
+        "curr_value": 8.5,
+        "change_pct": 60.38
+      },
+      "timestamp": "2026-06-25T17:13:20.322601",
+      "status": "failed"
+    },
+    {
+      "finding_id": "fd7eda60-1e00-4ead-a012-e150d2e1d28f",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 69.0 → 120.0 (73.9% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 69.0,
+        "curr_value": 120.0,
+        "change_pct": 73.91
+      },
+      "timestamp": "2026-06-25T17:13:20.322607",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4029d75b-33ca-4a16-928f-7c5c90aa3d11",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.6 → 9.0 (60.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.6,
+        "curr_value": 9.0,
+        "change_pct": 60.71
+      },
+      "timestamp": "2026-06-25T17:13:20.322613",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b4aeee31-0fa8-4ad4-92b7-9ca199dc4890",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 71.0 → 125.0 (76.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 71.0,
+        "curr_value": 125.0,
+        "change_pct": 76.06
+      },
+      "timestamp": "2026-06-25T17:13:20.322619",
+      "status": "failed"
+    },
+    {
+      "finding_id": "eef6cdf2-9b45-4164-afa6-f33d33310017",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.9 → 9.5 (61.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.9,
+        "curr_value": 9.5,
+        "change_pct": 61.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322625",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2f815e8e-0f35-430c-9268-bb97c9ba9e6e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 73.0 → 130.0 (78.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 73.0,
+        "curr_value": 130.0,
+        "change_pct": 78.08
+      },
+      "timestamp": "2026-06-25T17:13:20.322631",
+      "status": "failed"
+    },
+    {
+      "finding_id": "7a45a715-6674-4295-bb97-a81cf9eae053",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 6.2 → 10.0 (61.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 6.2,
+        "curr_value": 10.0,
+        "change_pct": 61.29
+      },
+      "timestamp": "2026-06-25T17:13:20.322637",
+      "status": "failed"
+    },
+    {
+      "finding_id": "608dd2e2-f476-471d-8419-17402f28ff7b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 75.0 → 135.0 (80.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 75.0,
+        "curr_value": 135.0,
+        "change_pct": 80.0
+      },
+      "timestamp": "2026-06-25T17:13:20.322643",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d9534518-20d2-4b6c-abea-2e4e5b4a1ae5",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.0 → 8.0 (60.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.0,
+        "curr_value": 8.0,
+        "change_pct": 60.0
+      },
+      "timestamp": "2026-06-25T17:13:20.322649",
+      "status": "failed"
+    },
+    {
+      "finding_id": "967d971c-ac67-4d9e-ac3d-44744eec9674",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 77.0 → 140.0 (81.8% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 77.0,
+        "curr_value": 140.0,
+        "change_pct": 81.82
+      },
+      "timestamp": "2026-06-25T17:13:20.322654",
+      "status": "failed"
+    },
+    {
+      "finding_id": "0e6bb5a8-2385-4a2c-98d3-2f0408de6c8b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.3 → 8.5 (60.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.3,
+        "curr_value": 8.5,
+        "change_pct": 60.38
+      },
+      "timestamp": "2026-06-25T17:13:20.322660",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b79955a8-6097-46f3-99d1-bc4b2c3b4f56",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 79.0 → 145.0 (83.5% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 79.0,
+        "curr_value": 145.0,
+        "change_pct": 83.54
+      },
+      "timestamp": "2026-06-25T17:13:20.322666",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8d9e0b28-f14c-4c85-9482-35611b6813d4",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.6 → 9.0 (60.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.6,
+        "curr_value": 9.0,
+        "change_pct": 60.71
+      },
+      "timestamp": "2026-06-25T17:13:20.322673",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5d9a3527-865d-4e06-aad6-9035d9ffe84d",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 81.0 → 150.0 (85.2% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 81.0,
+        "curr_value": 150.0,
+        "change_pct": 85.19
+      },
+      "timestamp": "2026-06-25T17:13:20.322679",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2a1df735-9bc4-407f-9554-c7fa5c485cc9",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.9 → 9.5 (61.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.9,
+        "curr_value": 9.5,
+        "change_pct": 61.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322685",
+      "status": "failed"
+    },
+    {
+      "finding_id": "793ecbfc-e05b-40e0-a12d-f654d53b5f01",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 83.0 → 155.0 (86.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 83.0,
+        "curr_value": 155.0,
+        "change_pct": 86.75
+      },
+      "timestamp": "2026-06-25T17:13:20.322691",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d6f635a8-fc1f-41d6-9515-5a50a07635df",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 6.2 → 10.0 (61.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 6.2,
+        "curr_value": 10.0,
+        "change_pct": 61.29
+      },
+      "timestamp": "2026-06-25T17:13:20.322697",
+      "status": "failed"
+    },
+    {
+      "finding_id": "194bef5f-cf5b-40e4-966b-e3d4c696bfc8",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 65.0 → 110.0 (69.2% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 65.0,
+        "curr_value": 110.0,
+        "change_pct": 69.23
+      },
+      "timestamp": "2026-06-25T17:13:20.322703",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2b9e9f9c-0289-4fb3-b479-5ca3e562c7c0",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.0 → 8.0 (60.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.0,
+        "curr_value": 8.0,
+        "change_pct": 60.0
+      },
+      "timestamp": "2026-06-25T17:13:20.322708",
+      "status": "failed"
+    },
+    {
+      "finding_id": "245066c7-0a64-45df-96af-1995d6690784",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 67.0 → 115.0 (71.6% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 67.0,
+        "curr_value": 115.0,
+        "change_pct": 71.64
+      },
+      "timestamp": "2026-06-25T17:13:20.322715",
+      "status": "failed"
+    },
+    {
+      "finding_id": "3b7a9bff-4472-442d-b582-f53085d00306",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.3 → 8.5 (60.4% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.3,
+        "curr_value": 8.5,
+        "change_pct": 60.38
+      },
+      "timestamp": "2026-06-25T17:13:20.322721",
+      "status": "failed"
+    },
+    {
+      "finding_id": "11ff879a-e826-497a-8fa5-7bcfe9d6eed0",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T012",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 69.0 → 120.0 (73.9% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 69.0,
+        "curr_value": 120.0,
+        "change_pct": 73.91
+      },
+      "timestamp": "2026-06-25T17:13:20.322726",
+      "status": "failed"
+    },
+    {
+      "finding_id": "86089422-6880-40d4-89d3-5c5d39d16982",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T012",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.6 → 9.0 (60.7% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.6,
+        "curr_value": 9.0,
+        "change_pct": 60.71
+      },
+      "timestamp": "2026-06-25T17:13:20.322732",
+      "status": "failed"
+    },
+    {
+      "finding_id": "87baea5d-f7a5-44ce-bf69-bb427cffae15",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 71.0 → 125.0 (76.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 71.0,
+        "curr_value": 125.0,
+        "change_pct": 76.06
+      },
+      "timestamp": "2026-06-25T17:13:20.322738",
+      "status": "failed"
+    },
+    {
+      "finding_id": "53f9b8f9-31bb-4bfb-b02a-571eb524703b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 5.9 → 9.5 (61.0% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 5.9,
+        "curr_value": 9.5,
+        "change_pct": 61.02
+      },
+      "timestamp": "2026-06-25T17:13:20.322744",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5eb1110a-c72a-4c74-982e-f142af8aa79a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "Lab 'CR' rapidly worsened: 73.0 → 130.0 (78.1% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 73.0,
+        "curr_value": 130.0,
+        "change_pct": 78.08
+      },
+      "timestamp": "2026-06-25T17:13:20.322750",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e95dd2d4-3c66-44ca-a481-a09310896b2e",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "GLU",
+      "message": "Lab 'GLU' rapidly worsened: 6.2 → 10.0 (61.3% change) between 2024-01-29 and 2024-02-12",
+      "details": {
+        "prev_value": 6.2,
+        "curr_value": 10.0,
+        "change_pct": 61.29
+      },
+      "timestamp": "2026-06-25T17:13:20.322757",
+      "status": "failed"
+    },
+    {
+      "finding_id": "02052e46-eb86-4c0f-b2de-59484796cbde",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab_trend",
+      "subject_id": "",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L1 Trend: 'ALT' median decreased from 26.60 (Baseline) to 20.57 (Week 2) (22.7% change)",
+      "details": {
+        "test_code": "ALT",
+        "baseline_visit": "Baseline",
+        "baseline_median": 26.6,
+        "baseline_q1": 20.59,
+        "baseline_q3": 28.98,
+        "current_visit": "Week 2",
+        "current_median": 20.57,
+        "current_q1": 12.68,
+        "current_q3": 25.89,
+        "median_change_pct": 22.67,
+        "n_baseline": 20,
+        "n_current": 20
+      },
+      "timestamp": "2026-06-25T17:13:20.322987",
+      "status": "failed"
+    },
+    {
+      "finding_id": "3bec723b-f76c-410f-9b76-4c38a54f56a0",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab_trend",
+      "subject_id": "",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L1 Trend: 'ALT' median decreased from 26.60 (Baseline) to 20.32 (Week 8) (23.6% change)",
+      "details": {
+        "test_code": "ALT",
+        "baseline_visit": "Baseline",
+        "baseline_median": 26.6,
+        "baseline_q1": 20.59,
+        "baseline_q3": 28.98,
+        "current_visit": "Week 8",
+        "current_median": 20.32,
+        "current_q1": 17.02,
+        "current_q3": 29.98,
+        "median_change_pct": 23.59,
+        "n_baseline": 20,
+        "n_current": 20
+      },
+      "timestamp": "2026-06-25T17:13:20.322998",
+      "status": "failed"
+    },
+    {
+      "finding_id": "54d0c60d-1fc0-4a9e-885d-46009462d526",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab_trend",
+      "subject_id": "",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "L1 Trend: 'TBIL' median decreased from 12.67 (Baseline) to 10.11 (Week 2) (20.2% change)",
+      "details": {
+        "test_code": "TBIL",
+        "baseline_visit": "Baseline",
+        "baseline_median": 12.67,
+        "baseline_q1": 10.36,
+        "baseline_q3": 14.48,
+        "current_visit": "Week 2",
+        "current_median": 10.11,
+        "current_q1": 7.63,
+        "current_q3": 14.17,
+        "median_change_pct": 20.17,
+        "n_baseline": 20,
+        "n_current": 20
+      },
+      "timestamp": "2026-06-25T17:13:20.323028",
+      "status": "failed"
+    },
+    {
+      "finding_id": "76a2e8a5-3e3e-4e9e-af02-8f548cfbed1a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab_trend",
+      "subject_id": "",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALP",
+      "message": "L1 Trend: 'ALP' median decreased from 73.16 (Baseline) to 57.14 (Week 4) (21.9% change)",
+      "details": {
+        "test_code": "ALP",
+        "baseline_visit": "Baseline",
+        "baseline_median": 73.16,
+        "baseline_q1": 51.89,
+        "baseline_q3": 93.38,
+        "current_visit": "Week 4",
+        "current_median": 57.14,
+        "current_q1": 47.68,
+        "current_q3": 78.27,
+        "median_change_pct": 21.9,
+        "n_baseline": 20,
+        "n_current": 20
+      },
+      "timestamp": "2026-06-25T17:13:20.323049",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ec6903fd-8f77-4f2f-b6ee-e889f60cfc5c",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab_trend",
+      "subject_id": "",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "L1 Trend: 'CR' median increased from 68.00 (Baseline) to 98.83 (Week 8) (45.3% change)",
+      "details": {
+        "test_code": "CR",
+        "baseline_visit": "Baseline",
+        "baseline_median": 68.0,
+        "baseline_q1": 62.0,
+        "baseline_q3": 77.0,
+        "current_visit": "Week 8",
+        "current_median": 98.83,
+        "current_q1": 84.48,
+        "current_q3": 122.5,
+        "median_change_pct": 45.34,
+        "n_baseline": 35,
+        "n_current": 35
+      },
+      "timestamp": "2026-06-25T17:13:20.323095",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5f68f690-9e81-4b77-95d3-7d09e4c10d3a",
+      "category": "safety",
+      "severity": "critical",
+      "source": "lab_hepatic",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT_TBIL",
+      "message": "L2 Hy's Law candidate: S001 — ALT=156.2 (3.9×ULN), TBIL=57.4 (2.7×ULN), ALP=43.9 (0.4×ULN), R-ratio=10.68 (hepatocellular)",
+      "details": {
+        "subject_id": "S001",
+        "enzyme_name": "ALT",
+        "enzyme_value": 156.15,
+        "enzyme_xuln": 3.9,
+        "enzyme_date": "2024-02-12",
+        "tbil_value": 57.37,
+        "tbil_xuln": 2.73,
+        "tbil_date": "2024-02-12",
+        "alp_value": 43.87,
+        "alp_xuln": 0.37,
+        "r_ratio": 10.68,
+        "r_ratio_type": "hepatocellular",
+        "hy_window_days": 28
+      },
+      "timestamp": "2026-06-25T17:13:20.325982",
+      "status": "failed"
+    },
+    {
+      "finding_id": "89c96785-f64e-4bb0-a505-41c202d87f08",
+      "category": "safety",
+      "severity": "critical",
+      "source": "lab_hepatic",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT_TBIL",
+      "message": "L2 Hy's Law candidate: S002 — ALT=148.9 (3.7×ULN), TBIL=52.1 (2.5×ULN), ALP=55.8 (0.5×ULN), R-ratio=8.00 (hepatocellular)",
+      "details": {
+        "subject_id": "S002",
+        "enzyme_name": "ALT",
+        "enzyme_value": 148.87,
+        "enzyme_xuln": 3.72,
+        "enzyme_date": "2024-02-26",
+        "tbil_value": 52.15,
+        "tbil_xuln": 2.48,
+        "tbil_date": "2024-02-26",
+        "alp_value": 55.83,
+        "alp_xuln": 0.47,
+        "r_ratio": 8.0,
+        "r_ratio_type": "hepatocellular",
+        "hy_window_days": 28
+      },
+      "timestamp": "2026-06-25T17:13:20.326177",
+      "status": "failed"
+    },
+    {
+      "finding_id": "88072340-62dc-4531-9e19-345bb1978a89",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "CR",
+      "message": "L3 Outlier: 'CR' value 99.88 for subject S003 at Baseline is above IQR range [39.50, 99.50]",
+      "details": {
+        "test_code": "CR",
+        "visit": "Baseline",
+        "subject_id": "S003",
+        "value": 99.88,
+        "upper_bound": 99.5,
+        "lower_bound": 39.5,
+        "median": 68.0,
+        "q1": 62.0,
+        "q3": 77.0,
+        "iqr": 15.0,
+        "test_date": "2024-01-01"
+      },
+      "timestamp": "2026-06-25T17:13:20.326658",
+      "status": "failed"
+    },
+    {
+      "finding_id": "3fd4c1f0-cdca-4eda-b48e-7cdd04d05d81",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 64.07 for subject S001 at Week 4 is above IQR range [-6.16, 49.94]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 4",
+        "subject_id": "S001",
+        "value": 64.07,
+        "upper_bound": 49.94,
+        "lower_bound": -6.16,
+        "median": 22.87,
+        "q1": 14.88,
+        "q3": 28.9,
+        "iqr": 14.02,
+        "test_date": "2024-01-29"
+      },
+      "timestamp": "2026-06-25T17:13:20.326694",
+      "status": "failed"
+    },
+    {
+      "finding_id": "7019e5b0-2f1f-42fb-ac55-b1b997f7f23f",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 61.48 for subject S002 at Week 4 is above IQR range [-6.16, 49.94]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 4",
+        "subject_id": "S002",
+        "value": 61.48,
+        "upper_bound": 49.94,
+        "lower_bound": -6.16,
+        "median": 22.87,
+        "q1": 14.88,
+        "q3": 28.9,
+        "iqr": 14.02,
+        "test_date": "2024-01-29"
+      },
+      "timestamp": "2026-06-25T17:13:20.326702",
+      "status": "failed"
+    },
+    {
+      "finding_id": "abba8d1b-2e5c-4acf-a761-1b6553182e54",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 104.80 for subject S003 at Week 4 is above IQR range [-6.16, 49.94]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 4",
+        "subject_id": "S003",
+        "value": 104.8,
+        "upper_bound": 49.94,
+        "lower_bound": -6.16,
+        "median": 22.87,
+        "q1": 14.88,
+        "q3": 28.9,
+        "iqr": 14.02,
+        "test_date": "2024-01-29"
+      },
+      "timestamp": "2026-06-25T17:13:20.326708",
+      "status": "failed"
+    },
+    {
+      "finding_id": "15f10ab4-8cf2-4c7a-9782-e63170f28947",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 83.44 for subject S001 at Week 4 is above IQR range [1.09, 46.89]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 4",
+        "subject_id": "S001",
+        "value": 83.44,
+        "upper_bound": 46.89,
+        "lower_bound": 1.09,
+        "median": 23.13,
+        "q1": 18.27,
+        "q3": 29.71,
+        "iqr": 11.45,
+        "test_date": "2024-01-29"
+      },
+      "timestamp": "2026-06-25T17:13:20.326718",
+      "status": "failed"
+    },
+    {
+      "finding_id": "037f38d1-9907-49b6-81b2-86998617f860",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 90.78 for subject S002 at Week 4 is above IQR range [1.09, 46.89]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 4",
+        "subject_id": "S002",
+        "value": 90.78,
+        "upper_bound": 46.89,
+        "lower_bound": 1.09,
+        "median": 23.13,
+        "q1": 18.27,
+        "q3": 29.71,
+        "iqr": 11.45,
+        "test_date": "2024-01-29"
+      },
+      "timestamp": "2026-06-25T17:13:20.326725",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9222c27e-7757-42c3-97d5-d05854ad3853",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 156.15 for subject S001 at Week 8 is above IQR range [-2.40, 49.40]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 8",
+        "subject_id": "S001",
+        "value": 156.15,
+        "upper_bound": 49.4,
+        "lower_bound": -2.4,
+        "median": 20.32,
+        "q1": 17.02,
+        "q3": 29.98,
+        "iqr": 12.95,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326752",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b9822239-b6ea-4cdc-a1c1-12df6971e604",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 145.86 for subject S002 at Week 8 is above IQR range [-2.40, 49.40]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 8",
+        "subject_id": "S002",
+        "value": 145.86,
+        "upper_bound": 49.4,
+        "lower_bound": -2.4,
+        "median": 20.32,
+        "q1": 17.02,
+        "q3": 29.98,
+        "iqr": 12.95,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326758",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c9eb88b4-3dea-432a-b57e-c05fd0f52de4",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 94.01 for subject S003 at Week 8 is above IQR range [-2.40, 49.40]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 8",
+        "subject_id": "S003",
+        "value": 94.01,
+        "upper_bound": 49.4,
+        "lower_bound": -2.4,
+        "median": 20.32,
+        "q1": 17.02,
+        "q3": 29.98,
+        "iqr": 12.95,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326764",
+      "status": "failed"
+    },
+    {
+      "finding_id": "cd6ffffe-95b3-4aa9-9373-7f33694f18ad",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 100.29 for subject S001 at Week 8 is above IQR range [-3.08, 49.78]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 8",
+        "subject_id": "S001",
+        "value": 100.29,
+        "upper_bound": 49.78,
+        "lower_bound": -3.08,
+        "median": 25.59,
+        "q1": 16.75,
+        "q3": 29.96,
+        "iqr": 13.21,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326774",
+      "status": "failed"
+    },
+    {
+      "finding_id": "482564fe-6de3-4fdf-b1e9-78031ec9cf89",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 139.84 for subject S002 at Week 8 is above IQR range [-3.08, 49.78]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 8",
+        "subject_id": "S002",
+        "value": 139.84,
+        "upper_bound": 49.78,
+        "lower_bound": -3.08,
+        "median": 25.59,
+        "q1": 16.75,
+        "q3": 29.96,
+        "iqr": 13.21,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326779",
+      "status": "failed"
+    },
+    {
+      "finding_id": "0ea05b3c-f618-4c75-99d4-96a6202aa6da",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "L3 Outlier: 'TBIL' value 57.37 for subject S001 at Week 8 is above IQR range [-3.97, 29.31]",
+      "details": {
+        "test_code": "TBIL",
+        "visit": "Week 8",
+        "subject_id": "S001",
+        "value": 57.37,
+        "upper_bound": 29.31,
+        "lower_bound": -3.97,
+        "median": 13.24,
+        "q1": 8.51,
+        "q3": 16.83,
+        "iqr": 8.32,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326788",
+      "status": "failed"
+    },
+    {
+      "finding_id": "9750fcff-1e2d-4336-a4bb-3c80acbb03b5",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "L3 Outlier: 'TBIL' value 38.72 for subject S002 at Week 8 is above IQR range [-3.97, 29.31]",
+      "details": {
+        "test_code": "TBIL",
+        "visit": "Week 8",
+        "subject_id": "S002",
+        "value": 38.72,
+        "upper_bound": 29.31,
+        "lower_bound": -3.97,
+        "median": 13.24,
+        "q1": 8.51,
+        "q3": 16.83,
+        "iqr": 8.32,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326794",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a09e9eba-2b7f-4fc6-85a3-1ae4206ba69a",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "HGB",
+      "message": "L3 Outlier: 'HGB' value 80.00 for subject S010 at Week 8 is below IQR range [103.67, 173.33]",
+      "details": {
+        "test_code": "HGB",
+        "visit": "Week 8",
+        "subject_id": "S010",
+        "value": 80.0,
+        "upper_bound": 173.33,
+        "lower_bound": 103.67,
+        "median": 138.78,
+        "q1": 129.8,
+        "q3": 147.21,
+        "iqr": 17.41,
+        "test_date": "2024-02-12"
+      },
+      "timestamp": "2026-06-25T17:13:20.326806",
+      "status": "failed"
+    },
+    {
+      "finding_id": "af496ffb-630a-45c0-b664-5211937e8853",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 118.26 for subject S001 at Week 12 is above IQR range [-8.64, 58.82]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 12",
+        "subject_id": "S001",
+        "value": 118.26,
+        "upper_bound": 58.82,
+        "lower_bound": -8.64,
+        "median": 22.91,
+        "q1": 16.66,
+        "q3": 33.52,
+        "iqr": 16.86,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326824",
+      "status": "failed"
+    },
+    {
+      "finding_id": "6f7cc5aa-5e4e-4ecc-8430-8df7cc131680",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 148.87 for subject S002 at Week 12 is above IQR range [-8.64, 58.82]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 12",
+        "subject_id": "S002",
+        "value": 148.87,
+        "upper_bound": 58.82,
+        "lower_bound": -8.64,
+        "median": 22.91,
+        "q1": 16.66,
+        "q3": 33.52,
+        "iqr": 16.86,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326830",
+      "status": "failed"
+    },
+    {
+      "finding_id": "edbab324-0cc2-4843-9d84-537ad8836c5b",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "ALT",
+      "message": "L3 Outlier: 'ALT' value 115.05 for subject S003 at Week 12 is above IQR range [-8.64, 58.82]",
+      "details": {
+        "test_code": "ALT",
+        "visit": "Week 12",
+        "subject_id": "S003",
+        "value": 115.05,
+        "upper_bound": 58.82,
+        "lower_bound": -8.64,
+        "median": 22.91,
+        "q1": 16.66,
+        "q3": 33.52,
+        "iqr": 16.86,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326836",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c1fd5a0e-9c0e-465c-b8c3-f336fcd30b32",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 157.58 for subject S001 at Week 12 is above IQR range [-7.51, 56.25]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 12",
+        "subject_id": "S001",
+        "value": 157.58,
+        "upper_bound": 56.25,
+        "lower_bound": -7.51,
+        "median": 23.32,
+        "q1": 16.4,
+        "q3": 32.34,
+        "iqr": 15.94,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326845",
+      "status": "failed"
+    },
+    {
+      "finding_id": "c9a6b723-687b-4619-87d0-430bc79b5755",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "AST",
+      "message": "L3 Outlier: 'AST' value 98.32 for subject S002 at Week 12 is above IQR range [-7.51, 56.25]",
+      "details": {
+        "test_code": "AST",
+        "visit": "Week 12",
+        "subject_id": "S002",
+        "value": 98.32,
+        "upper_bound": 56.25,
+        "lower_bound": -7.51,
+        "median": 23.32,
+        "q1": 16.4,
+        "q3": 32.34,
+        "iqr": 15.94,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326851",
+      "status": "failed"
+    },
+    {
+      "finding_id": "75a49408-7aeb-4760-a2ff-1b4e398cd53c",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "L3 Outlier: 'TBIL' value 72.37 for subject S001 at Week 12 is above IQR range [-3.87, 28.65]",
+      "details": {
+        "test_code": "TBIL",
+        "visit": "Week 12",
+        "subject_id": "S001",
+        "value": 72.37,
+        "upper_bound": 28.65,
+        "lower_bound": -3.87,
+        "median": 11.57,
+        "q1": 8.32,
+        "q3": 16.45,
+        "iqr": 8.13,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326862",
+      "status": "failed"
+    },
+    {
+      "finding_id": "02eda3de-9e14-4dee-9348-9e7e823d442a",
+      "category": "safety",
+      "severity": "low",
+      "source": "lab_outlier",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "TBIL",
+      "message": "L3 Outlier: 'TBIL' value 52.15 for subject S002 at Week 12 is above IQR range [-3.87, 28.65]",
+      "details": {
+        "test_code": "TBIL",
+        "visit": "Week 12",
+        "subject_id": "S002",
+        "value": 52.15,
+        "upper_bound": 28.65,
+        "lower_bound": -3.87,
+        "median": 11.57,
+        "q1": 8.32,
+        "q3": 16.45,
+        "iqr": 8.13,
+        "test_date": "2024-02-26"
+      },
+      "timestamp": "2026-06-25T17:13:20.326869",
+      "status": "failed"
+    },
+    {
+      "finding_id": "08a58701-92be-4a6c-a787-2b12f8bdd72b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S008 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327029",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e58e096d-a438-40fb-882a-31ad36dbdf4a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T007 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327034",
+      "status": "failed"
+    },
+    {
+      "finding_id": "773da5a7-8911-4001-af34-bddc3647f816",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S016",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S016 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327039",
+      "status": "failed"
+    },
+    {
+      "finding_id": "412ae05f-243f-4cec-a636-af4869ef1a90",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T013 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327043",
+      "status": "failed"
+    },
+    {
+      "finding_id": "e564bdcb-cee3-4f87-a838-0502210fb479",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S006 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327047",
+      "status": "failed"
+    },
+    {
+      "finding_id": "d0a8768e-6a7a-44f4-bb8a-e61bc86e9320",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S013",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S013 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327052",
+      "status": "failed"
+    },
+    {
+      "finding_id": "a831f496-9c99-4998-a8b5-c712ea6d2ad4",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T005 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327056",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2257171c-264e-4e1d-9a2d-571f9a2e1e82",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S004 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327060",
+      "status": "failed"
+    },
+    {
+      "finding_id": "878f9bd3-c65b-4816-bbae-94e2c81f2ecd",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S011 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327065",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8030c6ce-03ea-4296-b194-add21575353a",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T011",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T011 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327069",
+      "status": "failed"
+    },
+    {
+      "finding_id": "74411d54-2891-4321-83aa-4398603d481f",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T001 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327073",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ba2757aa-1078-465d-9ba9-8757ec964833",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S019",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S019 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327078",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2eab0cfa-ec60-4b9d-973e-8f8f057cbe29",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T006",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T006 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327082",
+      "status": "failed"
+    },
+    {
+      "finding_id": "39619834-2eed-463d-8c11-149bdab2f019",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S018",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S018 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327086",
+      "status": "failed"
+    },
+    {
+      "finding_id": "db313ed4-1cd1-4007-95c3-4ea8072198bc",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T000",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T000 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327091",
+      "status": "failed"
+    },
+    {
+      "finding_id": "fbc19cd3-8176-4fee-bbc5-2030f7d65404",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S010 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327095",
+      "status": "failed"
+    },
+    {
+      "finding_id": "99f80aac-4f8f-4b02-9157-628350386a5b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S020",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S020 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327099",
+      "status": "failed"
+    },
+    {
+      "finding_id": "da4466ac-c346-49ed-b774-1bc4db1858e8",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S003 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327103",
+      "status": "failed"
+    },
+    {
+      "finding_id": "1563ab9b-ae18-43c0-969d-299f63371bdf",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T010",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T010 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327108",
+      "status": "failed"
+    },
+    {
+      "finding_id": "36c98adc-7275-4158-84aa-fe9e43ed9293",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T004",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T004 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327112",
+      "status": "failed"
+    },
+    {
+      "finding_id": "7530eb94-4237-44d2-8f84-923118b9f2fe",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S007",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S007 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327117",
+      "status": "failed"
+    },
+    {
+      "finding_id": "cf6fce57-dcdd-49c7-aeec-1a486c27ce2b",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S014 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327121",
+      "status": "failed"
+    },
+    {
+      "finding_id": "17c891d8-0995-4a31-8a98-b7795055a53f",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S017",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S017 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327125",
+      "status": "failed"
+    },
+    {
+      "finding_id": "ffc3009f-52da-4770-b801-33bd35b115ba",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T014",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T014 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327130",
+      "status": "failed"
+    },
+    {
+      "finding_id": "5bb8eb26-55cb-4dca-a9c8-8ce7375cd4c3",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T002 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327134",
+      "status": "failed"
+    },
+    {
+      "finding_id": "cd86eee9-b830-485a-8d70-396df51d6315",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T012",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T012 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327138",
+      "status": "failed"
+    },
+    {
+      "finding_id": "b0af6ec9-d43d-4ad1-acaf-5c2a3fff8626",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T009 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327142",
+      "status": "failed"
+    },
+    {
+      "finding_id": "2c4ef5e8-51de-4e90-a1c8-9b621fe51ad5",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S012",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S012 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327146",
+      "status": "failed"
+    },
+    {
+      "finding_id": "472089dc-82d1-433c-b53b-09510dc95f25",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S015",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S015 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327151",
+      "status": "failed"
+    },
+    {
+      "finding_id": "96eff618-12b8-4130-85a4-59cad35ac1f2",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T003",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T003 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327155",
+      "status": "failed"
+    },
+    {
+      "finding_id": "0acd2902-d79d-4027-a862-c39f644a2dbf",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S005",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S005 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327159",
+      "status": "failed"
+    },
+    {
+      "finding_id": "128ba7bf-4ea3-45d0-b20a-fccc3b184675",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "T008",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject T008 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327163",
+      "status": "failed"
+    },
+    {
+      "finding_id": "4b5a63f1-783a-4ebe-872d-0684b9a13d84",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S002",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S002 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327168",
+      "status": "failed"
+    },
+    {
+      "finding_id": "8c2c9874-c12a-49ab-a257-c1eb357bb0ff",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S001",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S001 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327172",
+      "status": "failed"
+    },
+    {
+      "finding_id": "cd9cc280-a23b-4bdd-aff5-fe51956177b3",
+      "category": "safety",
+      "severity": "medium",
+      "source": "lab",
+      "subject_id": "S009",
+      "visit_id": "",
+      "form_id": "",
+      "field_name": "",
+      "message": "Subject S009 missing critical safety labs: 3, 4, 5",
+      "details": {
+        "missing_tests": [
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "timestamp": "2026-06-25T17:13:20.327176",
+      "status": "failed"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+# PK/PD 参数阈值规则配置文件
+# PK/PD Parameter Threshold Rules
+#
+# 本文件定义了 PK/PD 参数检查的阈值参数。
+# 这些规则由 pkpd_checker.py 和 test_pkpd.py 加载使用。
+
+# ── PK 参数正常范围 ────────────────────────────────────────
+pk_parameters:
+  # AUC (药时曲线下面积)
+  AUC:
+    min: 0.1
+    max: 10000
+    unit: "ng·h/mL"
+    severity: "MAJOR"
+  # Cmax (最大血药浓度)
+  Cmax:
+    min: 0.1
+    max: 10000
+    unit: "ng/mL"
+    severity: "MAJOR"
+  # Tmax (达峰时间)
+  Tmax:
+    min: 0
+    max: 24
+    unit: "h"
+    severity: "MINOR"
+  # 半衰期
+  t_half:
+    min: 0.1
+    max: 100
+    unit: "h"
+    severity: "MINOR"
+  # 清除率
+  CL:
+    min: 0.1
+    max: 1000
+    unit: "L/h"
+    severity: "MAJOR"
+  # 表观分布容积
+  Vd:
+    min: 0.1
+    max: 10000
+    unit: "L"
+    severity: "MAJOR"
+
+# ── PD 参数正常范围 ────────────────────────────────────────
+pd_parameters:
+  # EC50 (半最大效应浓度)
+  EC50:
+    min: 0.01
+    max: 1000
+    unit: "ng/mL"
+    severity: "MINOR"
+  # Emax (最大效应)
+  Emax:
+    min: 0
+    max: 100
+    unit: "%"
+    severity: "MINOR"
+  # Hill 系数
+  Hill:
+    min: 0.1
+    max: 10
+    unit: "无量纲"
+    severity: "MINOR"
+
+# ── 采样时间检查规则 ────────────────────────────────────────
+sampling_rules:
+  # 最小采样点数（每受试者）
+  min_samples_per_subject: 5
+  # 采样时间最大间隔（小时）
+  max_interval_hours: 72
+  # 采样时间序列必须严格递增
+  require_monotonic: true
+
+# ── 剂量-浓度关系检查 ────────────────────────────────────────
+dose_concentration_rules:
+  # 剂量-浓度线性关系容差（R² 最小值）
+  min_r_squared: 0.7
+  # 剂量变异系数上限
+  max_dose_cv: 0.3
+  # 必须有给药记录才有 PK 数据
+  require_dose_record: true
+
+# ── 半衰期计算参数 ────────────────────────────────────────
+half_life_rules:
+  # 线性回归使用的最低浓度比例（相对于 Cmax）
+  min_conc_fraction: 0.1
+  # 线性回归所需最少点数
+  min_points_for_regression: 3
+  # 线性回归 R² 最小值
+  min_regression_r_squared: 0.6

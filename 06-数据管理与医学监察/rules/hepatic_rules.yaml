@@ -1,0 +1,30 @@
+# 肝毒性检测规则配置文件
+# Hepatic Toxicity Detection Rules
+# 参考: usamadar/edish-hepatotoxicity-demo
+#
+# 本文件定义了 Hy's Law 候选者检测和 R-ratio 分类的阈值参数。
+# 这些规则由 safety_checker.py 的 _check_lab_hepatic_toxicity() 方法加载使用。
+
+# 酶峰后胆红素窗口天数（Hy's Law 时间窗口）
+hy_window_days: 28
+
+# Hy's Law 候选者判定标准
+hys_law:
+  enzyme_xuln_gte: 3       # ALT/AST ≥ 3×ULN（酶学升高阈值）
+  tbil_xuln_gt: 2          # TBIL > 2×ULN（胆红素升高阈值）
+  alp_xuln_lt: 2           # ALP < 2×ULN（排除胆汁淤积型）
+
+# R-ratio 分类阈值
+# R-ratio = (ALT或AST / ULN) / (ALP / ULN)
+r_ratio:
+  hepatocellular_gte: 5    # R ≥ 5 → 肝细胞型损伤
+  cholestatic_lte: 2       # R ≤ 2 → 胆汁淤积型损伤
+  # 2 < R < 5 → 混合型损伤
+
+# 筛查阈值（用于快速筛选潜在肝毒性信号）
+screening:
+  alt_xuln_gte: 5          # ALT ≥ 5×ULN（高优先级筛查）
+  alp_xuln_gte: 2          # ALP ≥ 2×ULN（胆汁淤积筛查）
+  alt_xuln_and_tbil_xuln:
+    alt_xuln_gte: 3        # ALT ≥ 3×ULN 且
+    tbil_xuln_gt: 2        # TBIL > 2×ULN（联合筛查）

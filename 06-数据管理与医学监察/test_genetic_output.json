@@ -1,0 +1,718 @@
+{
+  "total_findings": 29,
+  "by_source": {
+    "genetic_genotype": 3,
+    "genetic_gene_drug": 20,
+    "genetic_rare_variant": 6
+  },
+  "by_severity": {
+    "low": 9,
+    "medium": 9,
+    "high": 11
+  },
+  "genetic_data_summary": {
+    "total_records": 36,
+    "subjects": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "genes": [
+      "CYP2C19",
+      "CYP2D6",
+      "DPYD",
+      "TPMT",
+      "UGT1A1",
+      "VKORC1"
+    ],
+    "populations": [
+      "East_Asian",
+      "European"
+    ]
+  },
+  "findings": [
+    {
+      "finding_id": "c460e770-b7ec-4a6e-8e52-a43de60a1fc8",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_genotype",
+      "subject_id": "S001",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "基因型格式异常: 1/*3A (基因: TPMT)",
+      "details": {
+        "check_id": "GENETIC_GENOTYPE",
+        "genotype": "1/*3A",
+        "gene": "TPMT"
+      },
+      "timestamp": "2026-06-26T09:12:55.800065",
+      "status": "passed"
+    },
+    {
+      "finding_id": "eb213c28-12fb-477d-94ce-a186ff6d83df",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_genotype",
+      "subject_id": "S006",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "基因型格式异常: 3A/*3A (基因: DPYD)",
+      "details": {
+        "check_id": "GENETIC_GENOTYPE",
+        "genotype": "3A/*3A",
+        "gene": "DPYD"
+      },
+      "timestamp": "2026-06-26T09:12:55.800081",
+      "status": "passed"
+    },
+    {
+      "finding_id": "de23f404-0a80-4bb4-be8c-a75c4f70f93e",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_genotype",
+      "subject_id": "S008",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "基因型格式异常: 3C/*3C (基因: TPMT)",
+      "details": {
+        "check_id": "GENETIC_GENOTYPE",
+        "genotype": "3C/*3C",
+        "gene": "TPMT"
+      },
+      "timestamp": "2026-06-26T09:12:55.800089",
+      "status": "passed"
+    },
+    {
+      "finding_id": "583e09b1-2803-4e71-b212-54a4b0945a1a",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S001",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2D6 中间代谢者 (1/*4)，相关药物需关注: 美托洛尔, 氟西汀, 帕罗西汀",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "CYP2D6",
+        "genotype": "1/*4",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "美托洛尔",
+          "氟西汀",
+          "帕罗西汀",
+          "文拉法辛",
+          "可待因"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800111",
+      "status": "passed"
+    },
+    {
+      "finding_id": "f26060c8-2394-43b6-b67a-6a437666c483",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S001",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 中间代谢者 (1/*2)，相关药物需关注: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800117",
+      "status": "passed"
+    },
+    {
+      "finding_id": "46183bfe-fe02-4218-adae-e820290cfc9c",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S002",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "UGT1A1 中间代谢者 (1/*28)，相关药物需关注: 伊立替康, 阿奇霉素",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "UGT1A1",
+        "genotype": "1/*28",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "伊立替康",
+          "阿奇霉素"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800123",
+      "status": "passed"
+    },
+    {
+      "finding_id": "ae6265e0-1f89-4aca-879d-850f5a79050d",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S003",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2D6 慢代谢者 (5/*5)，相关药物需剂量调整: 美托洛尔, 氟西汀, 帕罗西汀",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2D6",
+        "genotype": "5/*5",
+        "phenotype": "poor",
+        "related_drugs": [
+          "美托洛尔",
+          "氟西汀",
+          "帕罗西汀",
+          "文拉法辛",
+          "可待因"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800128",
+      "status": "passed"
+    },
+    {
+      "finding_id": "c89aba63-7ad2-41ce-903e-b7cdd41ca705",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S003",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 慢代谢者 (2/*3)，相关药物需剂量调整: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "2/*3",
+        "phenotype": "poor",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800133",
+      "status": "passed"
+    },
+    {
+      "finding_id": "05d35853-b7a5-45de-9c4d-4bf5df2f7bec",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S003",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "DPYD 中间代谢者 (1/*2)，相关药物需关注: 氟尿嘧啶, 卡培他滨, 替加氟",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "DPYD",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "氟尿嘧啶",
+          "卡培他滨",
+          "替加氟"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800138",
+      "status": "passed"
+    },
+    {
+      "finding_id": "8ef36614-fbe8-41e7-8d43-59d38908a9a8",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S004",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 超快代谢者 (17/*17)，相关药物可能无效: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_ULTRA_RAPID_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "17/*17",
+        "phenotype": "ultra_rapid",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800143",
+      "status": "passed"
+    },
+    {
+      "finding_id": "72e5c9bc-0ab4-4577-b1f6-6fda4d436379",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S004",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "VKORC1 慢代谢者 (G/A)，相关药物需剂量调整: 华法林",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "VKORC1",
+        "genotype": "G/A",
+        "phenotype": "poor",
+        "related_drugs": [
+          "华法林"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800148",
+      "status": "passed"
+    },
+    {
+      "finding_id": "f05c4701-3f86-4052-b5ce-03edf8f1f01d",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S005",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 中间代谢者 (1/*2)，相关药物需关注: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800153",
+      "status": "passed"
+    },
+    {
+      "finding_id": "1aac7597-df70-43c7-be8d-11df125a131b",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S005",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "TPMT 中间代谢者 (1/*2)，相关药物需关注: 硫唑嘌呤, 6-巯基嘌呤, 氟达拉滨",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "TPMT",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "硫唑嘌呤",
+          "6-巯基嘌呤",
+          "氟达拉滨"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800158",
+      "status": "passed"
+    },
+    {
+      "finding_id": "4b9b7525-ae9c-4628-bab9-b2f54da8ff17",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S006",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2D6 慢代谢者 (4/*4)，相关药物需剂量调整: 美托洛尔, 氟西汀, 帕罗西汀",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2D6",
+        "genotype": "4/*4",
+        "phenotype": "poor",
+        "related_drugs": [
+          "美托洛尔",
+          "氟西汀",
+          "帕罗西汀",
+          "文拉法辛",
+          "可待因"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800162",
+      "status": "passed"
+    },
+    {
+      "finding_id": "d1050a98-94d6-4df4-be97-4bf86a1d7ed6",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S006",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 慢代谢者 (2/*2)，相关药物需剂量调整: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "2/*2",
+        "phenotype": "poor",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800167",
+      "status": "passed"
+    },
+    {
+      "finding_id": "80facad4-ecf5-4aa5-926f-e6f8799c2b9f",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S006",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "DPYD 慢代谢者 (3A/*3A)，相关药物需剂量调整: 氟尿嘧啶, 卡培他滨, 替加氟",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "DPYD",
+        "genotype": "3A/*3A",
+        "phenotype": "poor",
+        "related_drugs": [
+          "氟尿嘧啶",
+          "卡培他滨",
+          "替加氟"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800172",
+      "status": "passed"
+    },
+    {
+      "finding_id": "0ea0a1ef-92fe-41de-8921-b558ec7db84f",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S008",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2D6 慢代谢者 (3/*3)，相关药物需剂量调整: 美托洛尔, 氟西汀, 帕罗西汀",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2D6",
+        "genotype": "3/*3",
+        "phenotype": "poor",
+        "related_drugs": [
+          "美托洛尔",
+          "氟西汀",
+          "帕罗西汀",
+          "文拉法辛",
+          "可待因"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800177",
+      "status": "passed"
+    },
+    {
+      "finding_id": "9928784e-3286-4f17-8a5b-5d798c4cc833",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S008",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 慢代谢者 (3/*3)，相关药物需剂量调整: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "3/*3",
+        "phenotype": "poor",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800182",
+      "status": "passed"
+    },
+    {
+      "finding_id": "1b7283a1-9f36-4cc5-8841-fb6f287887f7",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S009",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 超快代谢者 (17/*17)，相关药物可能无效: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_ULTRA_RAPID_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "17/*17",
+        "phenotype": "ultra_rapid",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800188",
+      "status": "passed"
+    },
+    {
+      "finding_id": "e540adef-be26-463a-b622-d1c5c5f83ff3",
+      "category": "consistency",
+      "severity": "high",
+      "source": "genetic_gene_drug",
+      "subject_id": "S010",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "UGT1A1 慢代谢者 (6/*6)，相关药物需剂量调整: 伊立替康, 阿奇霉素",
+      "details": {
+        "check_id": "GENETIC_Poor_METABOLIZER",
+        "gene": "UGT1A1",
+        "genotype": "6/*6",
+        "phenotype": "poor",
+        "related_drugs": [
+          "伊立替康",
+          "阿奇霉素"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800193",
+      "status": "passed"
+    },
+    {
+      "finding_id": "fb2c72c7-afe5-45b5-87f1-b5b2f385bd18",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S011",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2D6 中间代谢者 (1/*4)，相关药物需关注: 美托洛尔, 氟西汀, 帕罗西汀",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "CYP2D6",
+        "genotype": "1/*4",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "美托洛尔",
+          "氟西汀",
+          "帕罗西汀",
+          "文拉法辛",
+          "可待因"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800198",
+      "status": "passed"
+    },
+    {
+      "finding_id": "ef0e1fd4-ed35-4fb5-982c-2146e44c70ef",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S011",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "CYP2C19 中间代谢者 (1/*2)，相关药物需关注: 氯吡格雷, 奥美拉唑, 兰索拉唑",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "CYP2C19",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "氯吡格雷",
+          "奥美拉唑",
+          "兰索拉唑",
+          "艾司西酞普兰"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800204",
+      "status": "passed"
+    },
+    {
+      "finding_id": "28ef3fb8-2526-47af-9be0-9852b035c984",
+      "category": "consistency",
+      "severity": "medium",
+      "source": "genetic_gene_drug",
+      "subject_id": "S011",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "DPYD 中间代谢者 (1/*2)，相关药物需关注: 氟尿嘧啶, 卡培他滨, 替加氟",
+      "details": {
+        "check_id": "GENETIC_INTERMEDIATE_METABOLIZER",
+        "gene": "DPYD",
+        "genotype": "1/*2",
+        "phenotype": "intermediate",
+        "related_drugs": [
+          "氟尿嘧啶",
+          "卡培他滨",
+          "替加氟"
+        ]
+      },
+      "timestamp": "2026-06-26T09:12:55.800209",
+      "status": "passed"
+    },
+    {
+      "finding_id": "8ad2f2e1-014e-4536-8fc8-48b9f8de100c",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S003",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: DPYD *2 (等位基因频率: 0.005 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "DPYD",
+        "variant": "*2",
+        "allele_frequency": 0.005,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800217",
+      "status": "passed"
+    },
+    {
+      "finding_id": "b8180442-66a8-48ea-ad45-9204e1435cfc",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S006",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: DPYD *3A (等位基因频率: 0.003 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "DPYD",
+        "variant": "*3A",
+        "allele_frequency": 0.003,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800223",
+      "status": "passed"
+    },
+    {
+      "finding_id": "4b8fda23-baf4-4e48-b2a1-251c5f3acce0",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S008",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: CYP2D6 *3 (等位基因频率: 0.002 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "CYP2D6",
+        "variant": "*3",
+        "allele_frequency": 0.002,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800228",
+      "status": "passed"
+    },
+    {
+      "finding_id": "1260063c-6839-4781-be7e-c7f19ae652ea",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S008",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: TPMT *3C (等位基因频率: 0.001 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "TPMT",
+        "variant": "*3C",
+        "allele_frequency": 0.001,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800233",
+      "status": "passed"
+    },
+    {
+      "finding_id": "892f9652-d96b-4d41-b1e4-461d1dc51885",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S010",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: UGT1A1 *6 (等位基因频率: 0.001 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "UGT1A1",
+        "variant": "*6",
+        "allele_frequency": 0.001,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800238",
+      "status": "passed"
+    },
+    {
+      "finding_id": "77e11fdb-cad9-44b8-b08f-96d586375d09",
+      "category": "consistency",
+      "severity": "low",
+      "source": "genetic_rare_variant",
+      "subject_id": "S011",
+      "visit_id": "N/A",
+      "form_id": "",
+      "field_name": "",
+      "message": "罕见变异标记: DPYD *2 (等位基因频率: 0.005 < 0.01)",
+      "details": {
+        "check_id": "GENETIC_RARE_VARIANT",
+        "gene": "DPYD",
+        "variant": "*2",
+        "allele_frequency": 0.005,
+        "threshold": 0.01,
+        "requires_validation": "true"
+      },
+      "timestamp": "2026-06-26T09:12:55.800243",
+      "status": "passed"
+    }
+  ]
+}
