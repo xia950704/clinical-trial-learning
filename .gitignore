@@ -1,0 +1,55 @@
+# API Keys and Secrets
+.env
+*.key
+*.pem
+secrets.json
+
+# 敏感数据
+data/private/
+data/client/
+*.csv.private
+*.xpt.private
+*.sas7bdat.private
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# R 和 RStudio
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# 构建输出
+_output/
+output/
+*.pdf
+*.html
+!docs/*.html
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# 大文件（使用 Git LFS 管理）
+*.xpt
+*.sas7bdat
+*.sav
+*.dta
