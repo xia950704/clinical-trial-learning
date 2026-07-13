@@ -110,7 +110,7 @@ status: active
 #### 模式 3：目标试验模拟（RWE 模拟 RCT）
 - **流程**：用观察性数据"模拟"一个 RCT 的协议和分析
 - **适用**：RCT 不可行（伦理/成本/时间）时替代
-- **案例**：~~~~[[04-方法学与工具/03-R语言流行病学/github-references/steroids-trial-emulation/README|steroids-trial-emulation]]~~~~（详见第四节）
+- **案例**：[[steroids-trial-emulation]]（详见第四节）
 
 ---
 
@@ -208,7 +208,7 @@ $$w_i = \frac{A_i}{e(X_i)} + \frac{1-A_i}{1-e(X_i)}$$
 - 仅调整**测量**的混杂（未测量混杂仍存）
 - 依赖倾向评分模型正确设定
 
-**与已有笔记关联**：[[04-方法学与工具/03-R语言流行病学/1076-ipw-weighting.md]]、[[04-方法学与工具/03-R语言流行病学/1090-ps-weight-diagnostics.md]]、[[04-方法学与工具/03-R语言流行病学/1087-msm-iptw.md]]
+**与已有笔记关联**：[[1076-ipw-weighting]]、[[1090-ps-weight-diagnostics]]、[[1087-msm-iptw]]
 
 ### 4.2 G-Computation（G 计算 / G-公式）
 
@@ -236,7 +236,7 @@ $$w_i = \frac{A_i}{e(X_i)} + \frac{1-A_i}{1-e(X_i)}$$
 - 时变版本计算复杂
 - 高维协变量时模型可能过拟合
 
-**与已有笔记关联**：[[04-方法学与工具/03-R语言流行病学/github-references/IIT分析方法论与实战指南.md]] 中 Step 3 的方法对比表，以及 `cjyarnell/TargetTrial_ThresholdsForIMV` 仓库的 G 计算实践。
+**与已有笔记关联**：[[IIT分析方法论与实战指南]] 中 Step 3 的方法对比表，以及 `cjyarnell/TargetTrial_ThresholdsForIMV` 仓库的 G 计算实践。
 
 ### 4.3 BART（Bayesian Additive Regression Trees）
 
@@ -270,7 +270,7 @@ $$Y = \sum_{j=1}^{m} g(X; T_j, M_j) + \epsilon, \quad \epsilon \sim N(0, \sigma^
 **R 实现**：`bartMachine`、`dbarts` 包
 **Python 实现**：`PyBART`、`bartpy`
 
-**与已有笔记关联**：`cjyarnell/TargetTrial_ThresholdsForIMV` 使用 BART 进行复杂结局预测；[[04-方法学与工具/03-R语言流行病学/github-references/IIT分析方法论与实战指南.md]] 方法选择速查表中将 BART 列为"复杂预测/高维时变"的首选。
+**与已有笔记关联**：`cjyarnell/TargetTrial_ThresholdsForIMV` 使用 BART 进行复杂结局预测；[[IIT分析方法论与实战指南]] 方法选择速查表中将 BART 列为"复杂预测/高维时变"的首选。
 
 ### 4.4 三种方法对比速查
 
@@ -351,7 +351,7 @@ int_treatment_after_event <- function(dat, trt) {
   
   sum <- 0
   for(i in event_days_to_check){
-    add <- ifelse(dat~~~~~~[[i]]~~~~~~ == 1, 1, 0)
+    add <- ifelse(dat[[i]] == 1, 1, 0)
     sum <- sum + add
   }
   return(ifelse(sum > 0, 1, 0))
@@ -410,7 +410,7 @@ RCT 确证结果 ←── 外推至更广泛人群 ←── RWE 上市后监�
 - [ ] 运行 `kathoffman/steroids-trial-emulation` 完整流程，理解干预函数设计
 - [ ] 将目标试验规格表模板应用到你的尼非卡兰 IIT 研究
 - [ ] 探索 BART 在你的研究中的应用（个体化复律成功率预测）
-- [ ] 撰写 RWE 研究的方法学局限声明（参照 [[04-方法学与工具/03-R语言流行病学/github-references/IIT分析方法论与实战指南.md]] Step 5）
+- [ ] 撰写 RWE 研究的方法学局限声明（参照 [[IIT分析方法论与实战指南]] Step 5）
 
 ### 6.3 关键文献
 
@@ -427,11 +427,11 @@ RCT 确证结果 ←── 外推至更广泛人群 ←── RWE 上市后监�
 
 ### 内部链接
 
-- [[04-方法学与工具/03-R语言流行病学/github-references/IIT分析方法论与实战指南.md]] —— 五大问题类型、五步法框架、代码模板
-- [[04-方法学与工具/03-R语言流行病学/1076-ipw-weighting.md]] —— IPW 原理与实现
-- [[04-方法学与工具/03-R语言流行病学/1090-ps-weight-diagnostics.md]] —— 权重诊断与截断
-- [[04-方法学与工具/03-R语言流行病学/1087-msm-iptw.md]] —— 边际结构模型与 IPTW
-- [[04-方法学与工具/03-R语言流行病学/因果推断方法速查.md]] —— 方法选型决策树
+- [[IIT分析方法论与实战指南]] —— 五大问题类型、五步法框架、代码模板
+- [[1076-ipw-weighting]] —— IPW 原理与实现
+- [[1090-ps-weight-diagnostics]] —— 权重诊断与截断
+- [[1087-msm-iptw]] —— 边际结构模型与 IPTW
+- [[因果推断方法速查]] —— 方法选型决策树
 
 ### 外部关联
 
@@ -442,4 +442,4 @@ RCT 确证结果 ←── 外推至更广泛人群 ←── RWE 上市后监�
 ---
 
 *创建时间：2026-06-25*
-*关联模块：11-临床试验学习/04-与现有内容打通/*
+*关联模块：10-临床试验学习/04-与现有内容打通/*
