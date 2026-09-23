@@ -1,0 +1,7 @@
+# 让 GitHub 语言检测正确识别 R 项目
+*.r linguist-language=R
+*.R linguist-language=R
+*.Rmd linguist-language=R
+*.Rproj linguist-language=R
+*.RData linguist-detectable=false
+*.Rhistory linguist-detectable=false

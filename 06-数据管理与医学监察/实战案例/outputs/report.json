@@ -1,0 +1,1501 @@
+{
+  "project_name": "clinical_trial_demo",
+  "timestamp": "2026-06-25T11:14:43.027311",
+  "summary": {
+    "total_findings": 212,
+    "by_check_type": {
+      "LAB_ABNORMALITY": 212
+    },
+    "by_severity": {
+      "MAJOR": 0,
+      "MINOR": 212,
+      "CRITICAL": 0
+    }
+  },
+  "findings": [
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 53.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01001",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.91 (参考范围: 3.9-6.1)",
+      "subj_id": "01002",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 112.2 (参考范围: 120.0-160.0)",
+      "subj_id": "01002",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.25 (参考范围: 3.9-6.1)",
+      "subj_id": "01003",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 62.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01003",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 54.1 (参考范围: 9.0-50.0)",
+      "subj_id": "01004",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 48.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01004",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.55 (参考范围: 3.9-6.1)",
+      "subj_id": "01005",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01005",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 38.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01005",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.28 (参考范围: 3.9-6.1)",
+      "subj_id": "01006",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 46.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01006",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 50.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01007",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.81 (参考范围: 3.9-6.1)",
+      "subj_id": "01008",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 111.4 (参考范围: 120.0-160.0)",
+      "subj_id": "01008",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 59.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01008",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.63 (参考范围: 3.9-6.1)",
+      "subj_id": "01009",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 59.9 (参考范围: 9.0-50.0)",
+      "subj_id": "01009",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 52.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01009",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.4 (参考范围: 3.9-6.1)",
+      "subj_id": "01010",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.52 (参考范围: 3.9-6.1)",
+      "subj_id": "01011",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 107.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01011",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 62.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01011",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.07 (参考范围: 3.9-6.1)",
+      "subj_id": "01012",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.7 (参考范围: 120.0-160.0)",
+      "subj_id": "01012",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 76.1 (参考范围: 9.0-50.0)",
+      "subj_id": "01012",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.95 (参考范围: 3.9-6.1)",
+      "subj_id": "01013",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 50.0 (参考范围: 13.0-35.0)",
+      "subj_id": "01013",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.91 (参考范围: 3.9-6.1)",
+      "subj_id": "01014",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 50.6 (参考范围: 9.0-50.0)",
+      "subj_id": "01014",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 54.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01014",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 115.4 (参考范围: 120.0-160.0)",
+      "subj_id": "01015",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 115.2 (参考范围: 53.0-115.0)",
+      "subj_id": "01016",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 58.6 (参考范围: 9.0-50.0)",
+      "subj_id": "01016",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 42.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01016",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.72 (参考范围: 3.9-6.1)",
+      "subj_id": "01017",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.56 (参考范围: 3.9-6.1)",
+      "subj_id": "01019",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 74.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01019",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 41.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01019",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 52.3 (参考范围: 53.0-115.0)",
+      "subj_id": "01020",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 61.9 (参考范围: 9.0-50.0)",
+      "subj_id": "01020",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 58.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01020",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 52.5 (参考范围: 53.0-115.0)",
+      "subj_id": "01021",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 76.7 (参考范围: 9.0-50.0)",
+      "subj_id": "01021",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 37.0 (参考范围: 13.0-35.0)",
+      "subj_id": "01021",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.28 (参考范围: 3.9-6.1)",
+      "subj_id": "01022",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 108.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01022",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01022",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.0 (参考范围: 120.0-160.0)",
+      "subj_id": "01023",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 44.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01023",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.13 (参考范围: 3.9-6.1)",
+      "subj_id": "01024",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.65 (参考范围: 3.9-6.1)",
+      "subj_id": "01025",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 116.4 (参考范围: 120.0-160.0)",
+      "subj_id": "01025",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 78.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01025",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 43.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01025",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.63 (参考范围: 3.9-6.1)",
+      "subj_id": "01026",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.05 (参考范围: 3.9-6.1)",
+      "subj_id": "01027",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 10.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01027",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 76.8 (参考范围: 9.0-50.0)",
+      "subj_id": "01028",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 50.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01028",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.82 (参考范围: 3.9-6.1)",
+      "subj_id": "01029",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 108.6 (参考范围: 120.0-160.0)",
+      "subj_id": "01029",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 56.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01029",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 59.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01029",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.17 (参考范围: 3.9-6.1)",
+      "subj_id": "01030",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 70.1 (参考范围: 9.0-50.0)",
+      "subj_id": "01030",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 38.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01030",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.4 (参考范围: 3.9-6.1)",
+      "subj_id": "01031",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 48.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01031",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.91 (参考范围: 3.9-6.1)",
+      "subj_id": "01032",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 35.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01032",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 71.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01033",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 57.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01033",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.5 (参考范围: 3.9-6.1)",
+      "subj_id": "01034",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 43.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01034",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.36 (参考范围: 3.9-6.1)",
+      "subj_id": "01035",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 10.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01035",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.64 (参考范围: 3.9-6.1)",
+      "subj_id": "01036",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 70.5 (参考范围: 9.0-50.0)",
+      "subj_id": "01036",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 52.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01036",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 108.8 (参考范围: 120.0-160.0)",
+      "subj_id": "01037",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 39.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01037",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.48 (参考范围: 3.9-6.1)",
+      "subj_id": "01038",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.1 (参考范围: 120.0-160.0)",
+      "subj_id": "01038",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 61.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01038",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 42.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01038",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.44 (参考范围: 3.9-6.1)",
+      "subj_id": "01039",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 74.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01039",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 48.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01039",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 59.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01040",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 58.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01040",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.23 (参考范围: 3.9-6.1)",
+      "subj_id": "01041",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 41.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01041",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.81 (参考范围: 3.9-6.1)",
+      "subj_id": "01042",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 119.3 (参考范围: 53.0-115.0)",
+      "subj_id": "01042",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 63.4 (参考范围: 9.0-50.0)",
+      "subj_id": "01042",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.21 (参考范围: 3.9-6.1)",
+      "subj_id": "01044",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.7 (参考范围: 120.0-160.0)",
+      "subj_id": "01044",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 50.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01044",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 44.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01045",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.0 (参考范围: 3.9-6.1)",
+      "subj_id": "01046",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 118.8 (参考范围: 120.0-160.0)",
+      "subj_id": "01046",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 67.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01046",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.6 (参考范围: 13.0-35.0)",
+      "subj_id": "01046",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.63 (参考范围: 3.9-6.1)",
+      "subj_id": "01047",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 58.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01048",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.31 (参考范围: 3.9-6.1)",
+      "subj_id": "01049",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.09 (参考范围: 3.9-6.1)",
+      "subj_id": "01050",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 49.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01050",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 36.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01051",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.27 (参考范围: 3.9-6.1)",
+      "subj_id": "01052",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 45.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01052",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 110.9 (参考范围: 120.0-160.0)",
+      "subj_id": "01053",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 64.9 (参考范围: 9.0-50.0)",
+      "subj_id": "01053",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 37.4 (参考范围: 13.0-35.0)",
+      "subj_id": "01053",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.5 (参考范围: 3.9-6.1)",
+      "subj_id": "01054",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 118.4 (参考范围: 53.0-115.0)",
+      "subj_id": "01054",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 68.6 (参考范围: 9.0-50.0)",
+      "subj_id": "01054",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 10.6 (参考范围: 13.0-35.0)",
+      "subj_id": "01054",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.91 (参考范围: 3.9-6.1)",
+      "subj_id": "01055",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 116.3 (参考范围: 120.0-160.0)",
+      "subj_id": "01055",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 79.1 (参考范围: 9.0-50.0)",
+      "subj_id": "01055",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01055",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 113.1 (参考范围: 120.0-160.0)",
+      "subj_id": "01056",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.59 (参考范围: 3.9-6.1)",
+      "subj_id": "01057",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 50.9 (参考范围: 53.0-115.0)",
+      "subj_id": "01057",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 50.6 (参考范围: 9.0-50.0)",
+      "subj_id": "01057",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.7 (参考范围: 3.9-6.1)",
+      "subj_id": "01058",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 54.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01058",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.8 (参考范围: 3.9-6.1)",
+      "subj_id": "01059",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 103.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01059",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.31 (参考范围: 3.9-6.1)",
+      "subj_id": "01060",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 112.4 (参考范围: 120.0-160.0)",
+      "subj_id": "01060",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.32 (参考范围: 3.9-6.1)",
+      "subj_id": "01061",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 76.1 (参考范围: 9.0-50.0)",
+      "subj_id": "01062",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.99 (参考范围: 3.9-6.1)",
+      "subj_id": "01063",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 100.6 (参考范围: 120.0-160.0)",
+      "subj_id": "01063",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 53.7 (参考范围: 9.0-50.0)",
+      "subj_id": "01063",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 51.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01064",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 73.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01065",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 41.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01065",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.41 (参考范围: 3.9-6.1)",
+      "subj_id": "01066",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 58.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01066",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.27 (参考范围: 3.9-6.1)",
+      "subj_id": "01067",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 111.9 (参考范围: 120.0-160.0)",
+      "subj_id": "01067",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 52.7 (参考范围: 13.0-35.0)",
+      "subj_id": "01067",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.79 (参考范围: 3.9-6.1)",
+      "subj_id": "01068",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 77.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01068",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 39.9 (参考范围: 13.0-35.0)",
+      "subj_id": "01068",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.71 (参考范围: 3.9-6.1)",
+      "subj_id": "01069",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 118.8 (参考范围: 53.0-115.0)",
+      "subj_id": "01069",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 50.1 (参考范围: 53.0-115.0)",
+      "subj_id": "01070",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 70.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01070",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.55 (参考范围: 3.9-6.1)",
+      "subj_id": "01071",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 101.3 (参考范围: 120.0-160.0)",
+      "subj_id": "01071",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 52.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01071",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 100.6 (参考范围: 120.0-160.0)",
+      "subj_id": "01072",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 70.8 (参考范围: 9.0-50.0)",
+      "subj_id": "01072",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 117.8 (参考范围: 120.0-160.0)",
+      "subj_id": "01073",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 11.0 (参考范围: 13.0-35.0)",
+      "subj_id": "01073",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 109.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01074",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 46.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01074",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.68 (参考范围: 3.9-6.1)",
+      "subj_id": "01075",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 51.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01075",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.86 (参考范围: 3.9-6.1)",
+      "subj_id": "01077",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 51.6 (参考范围: 13.0-35.0)",
+      "subj_id": "01077",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.01 (参考范围: 3.9-6.1)",
+      "subj_id": "01078",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 116.7 (参考范围: 120.0-160.0)",
+      "subj_id": "01078",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01078",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.48 (参考范围: 3.9-6.1)",
+      "subj_id": "01079",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 107.4 (参考范围: 120.0-160.0)",
+      "subj_id": "01079",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 48.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01079",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 107.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01080",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.73 (参考范围: 3.9-6.1)",
+      "subj_id": "01081",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 75.9 (参考范围: 9.0-50.0)",
+      "subj_id": "01081",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.58 (参考范围: 3.9-6.1)",
+      "subj_id": "01082",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 109.5 (参考范围: 120.0-160.0)",
+      "subj_id": "01082",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 115.5 (参考范围: 53.0-115.0)",
+      "subj_id": "01082",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 78.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01082",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.67 (参考范围: 3.9-6.1)",
+      "subj_id": "01083",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 62.8 (参考范围: 9.0-50.0)",
+      "subj_id": "01083",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 54.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01083",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 52.3 (参考范围: 9.0-50.0)",
+      "subj_id": "01084",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 46.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01084",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.16 (参考范围: 3.9-6.1)",
+      "subj_id": "01085",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 41.4 (参考范围: 13.0-35.0)",
+      "subj_id": "01085",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 52.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01086",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 41.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01086",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 71.8 (参考范围: 9.0-50.0)",
+      "subj_id": "01087",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 103.9 (参考范围: 120.0-160.0)",
+      "subj_id": "01088",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.12 (参考范围: 3.9-6.1)",
+      "subj_id": "01089",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 9.83 (参考范围: 3.9-6.1)",
+      "subj_id": "01090",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 111.6 (参考范围: 120.0-160.0)",
+      "subj_id": "01090",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 58.5 (参考范围: 9.0-50.0)",
+      "subj_id": "01090",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.2 (参考范围: 13.0-35.0)",
+      "subj_id": "01090",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 70.8 (参考范围: 9.0-50.0)",
+      "subj_id": "01091",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 47.3 (参考范围: 13.0-35.0)",
+      "subj_id": "01091",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 8.74 (参考范围: 3.9-6.1)",
+      "subj_id": "01092",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 69.2 (参考范围: 9.0-50.0)",
+      "subj_id": "01092",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 7.18 (参考范围: 3.9-6.1)",
+      "subj_id": "01093",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 117.9 (参考范围: 53.0-115.0)",
+      "subj_id": "01093",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 52.4 (参考范围: 9.0-50.0)",
+      "subj_id": "01093",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 37.4 (参考范围: 13.0-35.0)",
+      "subj_id": "01093",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 肌酐 = 116.4 (参考范围: 53.0-115.0)",
+      "subj_id": "01094",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 72.4 (参考范围: 9.0-50.0)",
+      "subj_id": "01095",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 56.8 (参考范围: 13.0-35.0)",
+      "subj_id": "01095",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.57 (参考范围: 3.9-6.1)",
+      "subj_id": "01098",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 葡萄糖 = 6.43 (参考范围: 3.9-6.1)",
+      "subj_id": "01099",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 36.5 (参考范围: 13.0-35.0)",
+      "subj_id": "01099",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 血红蛋白 = 115.2 (参考范围: 120.0-160.0)",
+      "subj_id": "01100",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 丙氨酸氨基转移酶 = 77.0 (参考范围: 9.0-50.0)",
+      "subj_id": "01100",
+      "vis_id": "N/A"
+    },
+    {
+      "check_id": "LAB_ABNORMALITY",
+      "severity": "MINOR",
+      "description": "实验室异常: 天冬氨酸氨基转移酶 = 42.1 (参考范围: 13.0-35.0)",
+      "subj_id": "01100",
+      "vis_id": "N/A"
+    }
+  ]
+}
